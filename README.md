@@ -5,10 +5,6 @@ interactive vector track. Select a driver to inspect synchronized telemetry and
 timing data; the iOS development build also maps RPM, throttle, braking, and
 estimated g-force to custom Core Haptics feedback.
 
-This is an unofficial demonstration project and is not affiliated with Formula
-
-1.
-
 ## Features
 
 - Replay library with curated race and fastest-lap datasets
