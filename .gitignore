@@ -1,12 +1,86 @@
-# JavaScript
+# Dependencies and package-manager state
 node_modules/
+.npm/
+.yarn/
+.pnp.*
+.pnpm-store/
+
+# Local package-manager configuration (may contain registry credentials)
+.npmrc
+.yarnrc
+.yarnrc.yml
+
+# JavaScript and Expo output
 .expo/
+.expo-shared/
 dist/
+web-build/
 coverage/
 expo-env.d.ts
 *.tsbuildinfo
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.metro-health-check*
+.eslintcache
+.parcel-cache/
+.turbo/
+
+# Generated native projects
 apps/replay/ios/
 apps/replay/android/
+*.orig.*
+
+# Android build output and signing material
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+build/
+captures/
+local.properties
+*.hprof
+*.iml
+*.jks
+*.keystore
+!debug.keystore
+
+# Apple build output, local Xcode state, and signing material
+Pods/
+DerivedData/
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.hmap
+*.xcuserstate
+*.xcworkspace/
+.xcode.env.local
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.mobileprovision
+*.p8
+*.p12
+*.key
+*.pem
+
+# Native packaging and automation artifacts
+*.jsbundle
+vendor/bundle/
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
 
 # Python
 .venv/
@@ -22,10 +96,18 @@ tools/ingestion/data/output/
 # Editors and operating systems
 .DS_Store
 .idea/
+.vscode/
+.fleet/
+*.suo
 *.swp
+*.swo
+*~
 plan.md
 
 # Environment and credentials
 .env
 .env.*
 !.env.example
+credentials.json
+GoogleService-Info.plist
+google-services.json
