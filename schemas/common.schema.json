@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://f1-replay.local/schemas/common.schema.json",
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "trackGeometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["viewBox", "centerline", "startFinish", "sectorBoundaries"],
+      "properties": {
+        "viewBox": {
+          "type": "array",
+          "prefixItems": [
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number", "exclusiveMinimum": 0 },
+            { "type": "number", "exclusiveMinimum": 0 }
+          ],
+          "items": false
+        },
+        "centerline": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/point" }
+        },
+        "startFinish": { "$ref": "#/$defs/point" },
+        "sectorBoundaries": {
+          "type": "array",
+          "maxItems": 2,
+          "items": { "$ref": "#/$defs/point" }
+        }
+      }
+    },
+    "driver": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "driverNumber",
+        "code",
+        "name",
+        "teamName",
+        "teamColor"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "driverNumber": { "type": "integer", "minimum": 1, "maximum": 99 },
+        "code": { "type": "string", "minLength": 2, "maxLength": 4 },
+        "name": { "type": "string", "minLength": 1 },
+        "teamName": { "type": "string", "minLength": 1 },
+        "teamColor": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" }
+      }
+    },
+    "lapTiming": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "driverId",
+        "lapNumber",
+        "startMs",
+        "endMs",
+        "durationMs",
+        "sectorsMs",
+        "isPitOutLap",
+        "isValid"
+      ],
+      "properties": {
+        "driverId": { "type": "string", "minLength": 1 },
+        "lapNumber": { "type": "integer", "minimum": 1 },
+        "startMs": { "type": "integer", "minimum": 0 },
+        "endMs": { "type": "integer", "minimum": 0 },
+        "durationMs": { "type": ["integer", "null"], "minimum": 0 },
+        "sectorsMs": {
+          "type": "array",
+          "prefixItems": [
+            { "type": ["integer", "null"], "minimum": 0 },
+            { "type": ["integer", "null"], "minimum": 0 },
+            { "type": ["integer", "null"], "minimum": 0 }
+          ],
+          "items": false
+        },
+        "isPitOutLap": { "type": "boolean" },
+        "isValid": { "type": "boolean" }
+      }
+    },
+    "fastestLap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["driverId", "lapNumber", "durationMs"],
+      "properties": {
+        "driverId": { "type": "string", "minLength": 1 },
+        "lapNumber": { "type": "integer", "minimum": 1 },
+        "durationMs": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "sourceUrl",
+        "retrievedAtUtc",
+        "sourceHash",
+        "transformationVersion"
+      ],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "retrievedAtUtc": { "type": "string", "format": "date-time" },
+        "sourceHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "transformationVersion": { "type": "string", "minLength": 1 }
+      }
+    },
+    "dataQuality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "warnings",
+        "excludedLocationSamplePercentage",
+        "derivedGForce"
+      ],
+      "properties": {
+        "warnings": { "type": "array", "items": { "type": "string" } },
+        "excludedLocationSamplePercentage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "derivedGForce": { "enum": ["unavailable", "low", "estimated"] }
+      }
+    },
+    "chunkDescriptor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["startMs", "endMs", "url", "byteSize", "sha256"],
+      "properties": {
+        "startMs": { "type": "integer", "minimum": 0 },
+        "endMs": { "type": "integer", "minimum": 0 },
+        "url": { "type": "string", "minLength": 1 },
+        "byteSize": { "type": "integer", "minimum": 1 },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      }
+    },
+    "positionSample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["timeMs", "x", "y", "quality"],
+      "properties": {
+        "timeMs": { "type": "integer", "minimum": 0 },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "quality": { "enum": ["source", "interpolated"] }
+      }
+    },
+    "telemetrySample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timeMs",
+        "speedKph",
+        "throttlePercent",
+        "brakeApplied",
+        "rpm",
+        "gear",
+        "drs",
+        "longitudinalG",
+        "lateralG",
+        "gForceQuality"
+      ],
+      "properties": {
+        "timeMs": { "type": "integer", "minimum": 0 },
+        "speedKph": { "type": ["number", "null"], "minimum": 0 },
+        "throttlePercent": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "brakeApplied": { "type": ["boolean", "null"] },
+        "rpm": { "type": ["integer", "null"], "minimum": 0 },
+        "gear": { "type": ["integer", "null"], "minimum": 0, "maximum": 8 },
+        "drs": { "type": ["integer", "null"], "minimum": 0 },
+        "longitudinalG": { "type": ["number", "null"] },
+        "lateralG": { "type": ["number", "null"] },
+        "gForceQuality": { "enum": ["unavailable", "low", "estimated"] },
+        "sourceGapMs": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    }
+  }
+}

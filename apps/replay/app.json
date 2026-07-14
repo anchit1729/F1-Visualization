@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "F1 Replay",
+    "owner": "anchitmishra",
+    "slug": "f1-replay",
+    "version": "0.1.0",
+    "scheme": "f1-replay",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.anchitmishra.f1replay",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.anchitmishra.f1replay"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "dc488d75-a921-40ab-af4a-a97e330f9f8f"
+      }
+    }
+  }
+}

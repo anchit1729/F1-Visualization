@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://f1-replay.local/schemas/replay-index.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "sessionStartUtc",
+    "timeline",
+    "track",
+    "drivers",
+    "laps",
+    "overallFastestLap",
+    "chunks",
+    "dataQuality",
+    "provenance"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "schemaVersion": { "const": 1 },
+    "sessionStartUtc": { "type": "string", "format": "date-time" },
+    "timeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["startMs", "endMs", "chunkDurationMs"],
+      "properties": {
+        "startMs": { "type": "integer", "minimum": 0 },
+        "endMs": { "type": "integer", "minimum": 1 },
+        "chunkDurationMs": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "track": { "$ref": "common.schema.json#/$defs/trackGeometry" },
+    "drivers": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/driver" }
+    },
+    "laps": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/lapTiming" }
+    },
+    "overallFastestLap": {
+      "anyOf": [
+        { "$ref": "common.schema.json#/$defs/fastestLap" },
+        { "type": "null" }
+      ]
+    },
+    "chunks": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/chunkDescriptor" }
+    },
+    "dataQuality": { "$ref": "common.schema.json#/$defs/dataQuality" },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/provenance" }
+    }
+  }
+}

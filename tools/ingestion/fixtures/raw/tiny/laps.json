@@ -1,0 +1,24 @@
+[
+  {
+    "driver_number": 4,
+    "date_start": "2024-01-01T12:00:00Z",
+    "duration_sector_1": 3.0,
+    "duration_sector_2": 3.5,
+    "duration_sector_3": 3.5,
+    "is_pit_out_lap": false,
+    "lap_duration": 10.0,
+    "lap_number": 1,
+    "session_key": 10
+  },
+  {
+    "driver_number": 5,
+    "date_start": "2024-01-01T12:00:00.500Z",
+    "duration_sector_1": 3.2,
+    "duration_sector_2": null,
+    "duration_sector_3": null,
+    "is_pit_out_lap": false,
+    "lap_duration": null,
+    "lap_number": 1,
+    "session_key": 10
+  }
+]

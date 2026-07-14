@@ -1,0 +1,736 @@
+{
+  "chunks": [
+    {
+      "byteSize": 23853,
+      "endMs": 668979,
+      "sha256": "c16abb7b8b8e2194d72fcf3afd9f33d3894e161b3769b865f6c05648cf8e1944",
+      "startMs": 653979,
+      "url": "chunks/00000.json"
+    },
+    {
+      "byteSize": 25794,
+      "endMs": 683979,
+      "sha256": "a79a4a3b0456a6f069a7b1687d1114b2754ccc768f2db05a94ca84d0bc988dec",
+      "startMs": 668979,
+      "url": "chunks/00001.json"
+    },
+    {
+      "byteSize": 24966,
+      "endMs": 698979,
+      "sha256": "753c7a0de8e53125502938b3a5abe4de613048c25d684c72b8b8a6551c1ceeb4",
+      "startMs": 683979,
+      "url": "chunks/00002.json"
+    },
+    {
+      "byteSize": 24763,
+      "endMs": 713979,
+      "sha256": "c068ddec2771e4d0be386f50e2244e790da1e4ce1b2f02a0fc5b8085ca2d8864",
+      "startMs": 698979,
+      "url": "chunks/00003.json"
+    },
+    {
+      "byteSize": 24448,
+      "endMs": 728979,
+      "sha256": "377b2438c279662e2df332665c5fe8f46d8a6201e8da14291ac5a711eaa205b8",
+      "startMs": 713979,
+      "url": "chunks/00004.json"
+    },
+    {
+      "byteSize": 25191,
+      "endMs": 743979,
+      "sha256": "a6246d72ebf4294644d98cae58d03ed8287d60d7b0f80130a1e523a3c414edf2",
+      "startMs": 728979,
+      "url": "chunks/00005.json"
+    },
+    {
+      "byteSize": 657,
+      "endMs": 744394,
+      "sha256": "1188367fd45dba8b09e1faafa8056853617122254306559a4bd14abc6076e29a",
+      "startMs": 743979,
+      "url": "chunks/00006.json"
+    }
+  ],
+  "dataQuality": {
+    "derivedGForce": "estimated",
+    "excludedLocationSamplePercentage": 49.188,
+    "warnings": [
+      "Driver 16: excluded 2 large location jumps",
+      "Driver 18 lap 2: incomplete sector timing",
+      "Driver 18 lap 2: missing duration; interval bounded by source time",
+      "Driver 18: excluded 1 large location jumps",
+      "Driver 22 lap 13: incomplete sector timing",
+      "Driver 23 lap 1: missing valid start time",
+      "Driver 23: excluded 27 large location jumps",
+      "Driver 31: excluded 1 large location jumps",
+      "Driver 4 lap 1: incomplete sector timing",
+      "Driver 4 lap 1: missing duration; interval bounded by source time",
+      "Driver 4: excluded 1 large location jumps",
+      "Lap source rows were out of order and have been sorted",
+      "driver-10: clipped 19 derived g-force samples",
+      "driver-11: clipped 15 derived g-force samples",
+      "driver-14: clipped 12 derived g-force samples",
+      "driver-16: clipped 15 derived g-force samples",
+      "driver-18: clipped 4 derived g-force samples",
+      "driver-1: clipped 10 derived g-force samples",
+      "driver-20: clipped 6 derived g-force samples",
+      "driver-22: clipped 8 derived g-force samples",
+      "driver-23: clipped 58 derived g-force samples",
+      "driver-24: clipped 8 derived g-force samples",
+      "driver-27: clipped 15 derived g-force samples",
+      "driver-2: clipped 21 derived g-force samples",
+      "driver-31: clipped 5 derived g-force samples",
+      "driver-3: clipped 12 derived g-force samples",
+      "driver-44: clipped 15 derived g-force samples",
+      "driver-4: clipped 1 derived g-force samples",
+      "driver-55: clipped 18 derived g-force samples",
+      "driver-63: clipped 10 derived g-force samples",
+      "driver-77: clipped 9 derived g-force samples",
+      "driver-81: clipped 6 derived g-force samples"
+    ]
+  },
+  "drivers": [
+    {
+      "code": "VER",
+      "driverNumber": 1,
+      "id": "driver-1",
+      "name": "Max VERSTAPPEN",
+      "teamColor": "#3671C6",
+      "teamName": "Red Bull Racing"
+    }
+  ],
+  "id": "2024-miami-verstappen-fastest-lap",
+  "laps": [
+    {
+      "driverId": "driver-1",
+      "durationMs": 90415,
+      "endMs": 744394,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        30295,
+        34452,
+        25668
+      ],
+      "startMs": 653979
+    }
+  ],
+  "overallFastestLap": {
+    "driverId": "driver-1",
+    "durationMs": 90415,
+    "lapNumber": 4
+  },
+  "provenance": [
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:52.083303+00:00",
+      "sourceHash": "51a860aff72f03792473442ae5576a3f6af2c4c5ef36b07f543d9d9c9f0839a9",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=1&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:02.957715+00:00",
+      "sourceHash": "8d23d407e11cd43265a7d05632b87ed2ad910ea9f68e35abba578819d35b795c",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=10&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:05.328885+00:00",
+      "sourceHash": "783ee2ee298f92f15ee09da5c27500e403aeaa68ac2b2072959de9542e9b63c1",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=11&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:07.793208+00:00",
+      "sourceHash": "45b5e9fc2e27166548d30c19242cbd95bbc6d3031f70e9378df1522f3cae9b5a",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=14&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:10.676301+00:00",
+      "sourceHash": "7ab53ea8e7ee2813b7e5bca0f3b42ef16708e192af6804e0e19b59a1f928abdc",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=16&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:13.425059+00:00",
+      "sourceHash": "b8dbe9aba6ef9adbd66619e0eecdb3f2794ce36b8ebebae21b6c12472e63e8b4",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=18&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:54.693207+00:00",
+      "sourceHash": "615bf28e70338ce6fdad561670c0de96f2d3cd0cd570c6a09eeba2e87b5fd6ad",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=2&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:16.052273+00:00",
+      "sourceHash": "d08f089eb14660e1bd22d0ef2512c9fd7cc26d39304dea18d42b64d748add9a2",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=20&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:18.679415+00:00",
+      "sourceHash": "d8f9041c0db6f256f640f9b92c5b00d0556cf1fed5908caae0d458aae2269fc1",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=22&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:21.555040+00:00",
+      "sourceHash": "76d433da706b23d8daf436afc579e6847ba12343c9dc5f65f35588931b4ace10",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=23&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:24.170526+00:00",
+      "sourceHash": "5816ae9d3d2ae0b631390db6b02d3528afc9165a4972793da533351225154df2",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=24&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:26.745617+00:00",
+      "sourceHash": "32a275882ccb62e8e906adc6c622a530f716d4512705d2bfdf2df868de495220",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=27&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:57.151170+00:00",
+      "sourceHash": "f6dafc8f4ca7282f7479e198352bce007accc24087006132ff574b279db869bc",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=3&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:29.029401+00:00",
+      "sourceHash": "5ef9c138e3fe24d103fcfab917c959211ec11bb1e89fe70ba546f43f5e492809",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=31&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:00.443608+00:00",
+      "sourceHash": "53b6ab09e452d656473c30dfc8c50036ca290d20fd31018de5f68c14ee041d9f",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=4&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:31.403200+00:00",
+      "sourceHash": "c85eb4ca68cdf05bac2cdf6151574c6a1cea390fc497598ee7c78e42c13d7cde",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=44&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:33.858902+00:00",
+      "sourceHash": "dce30c85b901b0d94d361c87ceb31ccaf36cfd76a76a110b62299871714c234b",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=55&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:36.250684+00:00",
+      "sourceHash": "593e939af7015304d77990fadb1bb87460bc8686b58e18d11fe167ff0f5dced9",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=63&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:39.363631+00:00",
+      "sourceHash": "2ceb3154643c999c6fd709309ac961919e4deed80e7af6a39009cbf4574c714f",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=77&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:11:41.742674+00:00",
+      "sourceHash": "35434b186bef6e590e112d2448ff3a05fac3481244c504b79b603c44395435f7",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=81&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:00.664122+00:00",
+      "sourceHash": "e9260d362fc56af1716f3f4a847bf321d956695792b52a746926030bc4d05d5f",
+      "sourceUrl": "https://api.openf1.org/v1/drivers?session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:01.654411+00:00",
+      "sourceHash": "06c76b344180b728f8d7b0613a4dd0e1f87200c6735fb6fcf7018a6dcc3c9a51",
+      "sourceUrl": "https://api.openf1.org/v1/laps?session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:04.457058+00:00",
+      "sourceHash": "f282cc370a2d7ea5119067ce2fad01262d932348fafde5945ef73110a91b8d87",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=1&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:13.894535+00:00",
+      "sourceHash": "9f86d620e96c02e1e4ab51c250b23736bd7e11b0f6e2563f944f3aba8a13bd69",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=10&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:16.543230+00:00",
+      "sourceHash": "0cf7f364d3f7334550d0520b04a76bff7e7a6e6fc85b92ec4963b9c0b8d5ab8e",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=11&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:19.522804+00:00",
+      "sourceHash": "1ebc24ceb087b2686ec9bc90947fbc8fc35079d9ad2b0dbd60109100b2dc0326",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=14&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:22.417742+00:00",
+      "sourceHash": "6c0005aeade6bf00da2a3a649d71a5350db59278262cc3e3c4d6cefa65637de1",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=16&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:24.661013+00:00",
+      "sourceHash": "492bab784c397b241561f6e357118f71f4bad6a3cc60bebd4d834861c3267ef6",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=18&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:06.813424+00:00",
+      "sourceHash": "a084fa1c97991745111e84089d3dd541ffca770615ece0222bfaa82d7cb3297a",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=2&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:27.002998+00:00",
+      "sourceHash": "e31a86a35391bc1fe082c780619e2fe9ca6d23947e9c025bda5536ce928dbc59",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=20&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:29.236963+00:00",
+      "sourceHash": "8dc5a95a6c69d07d27a5f5e8f1e08fb985d3b70b32897c17dadc47afaf31138a",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=22&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:31.331829+00:00",
+      "sourceHash": "256c3c2479ceae9b1511d81b1279b3101776af6039b67b4ea162f51de7b9e627",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=23&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:33.953841+00:00",
+      "sourceHash": "7cdf09b472b20581c62d0c87f503ea27ea2c928fd351ddc7a022ea7bcfa40bff",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=24&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:36.064099+00:00",
+      "sourceHash": "16a22ea761a652d9e8460f57be7c88cdb807e4ea314551db13ba2ffaabbe849a",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=27&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:09.321408+00:00",
+      "sourceHash": "98940d03ad24b48184aac9e04dbde3a12be384cd5af1588bb46612b721a0f76a",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=3&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:38.140954+00:00",
+      "sourceHash": "c1efd4f1a4f97203ce8a09a9a8a5647cadded82ef877a8485fa2cf220bd6deb2",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=31&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:11.656383+00:00",
+      "sourceHash": "44bf0970249599cd37f81e551115f778ab2c377d9dffc05c038c0c3ddcf52a9f",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=4&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:40.363533+00:00",
+      "sourceHash": "b920aabd7a5f1e9ebc0c0f85ee4198f9a8e008d8ded127a88436ae0970f59167",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=44&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:42.864341+00:00",
+      "sourceHash": "c0ff48112575c7c84185d0315b4791a60d50783d1b89e2abf03f4f30423ccea7",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=55&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:45.103151+00:00",
+      "sourceHash": "c5c45e2bbe9ed3c5f847c020cec7e462acc6e2b989d7f53cec84d1e72353fb9b",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=63&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:47.314119+00:00",
+      "sourceHash": "1f9ef8c5102d2480b71a9fc11a22ac6bc67dbe5352368d766ffa5257823ea7fc",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=77&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:10:49.672953+00:00",
+      "sourceHash": "fcdf5ca9342f0df1981a502d13a0bae05ab22f02bcb1c4cc257a935d3686f915",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=81&session_key=9506",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:01:15.827921+00:00",
+      "sourceHash": "8eb65ac6117892139a3f65134c83d412aceee3e6d6f8506dc783898a23539a12",
+      "sourceUrl": "https://api.openf1.org/v1/meetings?year=2024",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T15:01:16.264142+00:00",
+      "sourceHash": "ee0341ed93746e72bc92b227ef91c1a3ab42195a5f439bdd468a37a6101af3bd",
+      "sourceUrl": "https://api.openf1.org/v1/sessions?meeting_key=1234",
+      "transformationVersion": "ingestion-v1"
+    }
+  ],
+  "schemaVersion": 1,
+  "sessionStartUtc": "2024-05-04T16:00:00Z",
+  "timeline": {
+    "chunkDurationMs": 15000,
+    "endMs": 744394,
+    "startMs": 653979
+  },
+  "track": {
+    "centerline": [
+      {
+        "x": 443.249,
+        "y": 393.369
+      },
+      {
+        "x": 529.999,
+        "y": 446.778
+      },
+      {
+        "x": 600.718,
+        "y": 485.326
+      },
+      {
+        "x": 613.108,
+        "y": 499.413
+      },
+      {
+        "x": 610.037,
+        "y": 514.691
+      },
+      {
+        "x": 581.841,
+        "y": 549.076
+      },
+      {
+        "x": 572.299,
+        "y": 601.423
+      },
+      {
+        "x": 559.88,
+        "y": 618.151
+      },
+      {
+        "x": 543.357,
+        "y": 629.167
+      },
+      {
+        "x": 510.217,
+        "y": 640.388
+      },
+      {
+        "x": 464.858,
+        "y": 639.677
+      },
+      {
+        "x": 433.039,
+        "y": 627.082
+      },
+      {
+        "x": 339.936,
+        "y": 568.993
+      },
+      {
+        "x": 302.744,
+        "y": 551.255
+      },
+      {
+        "x": 268.16,
+        "y": 549.834
+      },
+      {
+        "x": 230.299,
+        "y": 567.924
+      },
+      {
+        "x": 202.308,
+        "y": 571.929
+      },
+      {
+        "x": 186.243,
+        "y": 566.639
+      },
+      {
+        "x": 153.948,
+        "y": 542.629
+      },
+      {
+        "x": 125.394,
+        "y": 534.455
+      },
+      {
+        "x": 97.403,
+        "y": 540.345
+      },
+      {
+        "x": 73.1,
+        "y": 556.962
+      },
+      {
+        "x": 63.805,
+        "y": 571.354
+      },
+      {
+        "x": 60.411,
+        "y": 584.183
+      },
+      {
+        "x": 60.804,
+        "y": 596.109
+      },
+      {
+        "x": 65.514,
+        "y": 608.105
+      },
+      {
+        "x": 73.393,
+        "y": 615.081
+      },
+      {
+        "x": 83.011,
+        "y": 618.263
+      },
+      {
+        "x": 132.199,
+        "y": 621.258
+      },
+      {
+        "x": 200.793,
+        "y": 633.353
+      },
+      {
+        "x": 347.716,
+        "y": 631.11
+      },
+      {
+        "x": 382.911,
+        "y": 634.105
+      },
+      {
+        "x": 467.47,
+        "y": 660.91
+      },
+      {
+        "x": 517.609,
+        "y": 671.126
+      },
+      {
+        "x": 561.853,
+        "y": 671.907
+      },
+      {
+        "x": 613.172,
+        "y": 665.308
+      },
+      {
+        "x": 755.527,
+        "y": 617.999
+      },
+      {
+        "x": 829.605,
+        "y": 584.007
+      },
+      {
+        "x": 872.986,
+        "y": 558.747
+      },
+      {
+        "x": 882.339,
+        "y": 549.517
+      },
+      {
+        "x": 887.618,
+        "y": 534.925
+      },
+      {
+        "x": 881.506,
+        "y": 524.749
+      },
+      {
+        "x": 859.322,
+        "y": 503.441
+      },
+      {
+        "x": 855.77,
+        "y": 495.05
+      },
+      {
+        "x": 856.95,
+        "y": 480.247
+      },
+      {
+        "x": 863.532,
+        "y": 469.96
+      },
+      {
+        "x": 871.324,
+        "y": 464.523
+      },
+      {
+        "x": 905.838,
+        "y": 460.906
+      },
+      {
+        "x": 924.14,
+        "y": 452.374
+      },
+      {
+        "x": 936.8,
+        "y": 434.8
+      },
+      {
+        "x": 939.883,
+        "y": 423.045
+      },
+      {
+        "x": 929.255,
+        "y": 406.257
+      },
+      {
+        "x": 938.667,
+        "y": 364.075
+      },
+      {
+        "x": 930.441,
+        "y": 356.993
+      },
+      {
+        "x": 912.45,
+        "y": 352.384
+      },
+      {
+        "x": 273.638,
+        "y": 334.399
+      },
+      {
+        "x": 195.138,
+        "y": 327.582
+      },
+      {
+        "x": 173.941,
+        "y": 329.936
+      },
+      {
+        "x": 167.013,
+        "y": 334.71
+      },
+      {
+        "x": 164.799,
+        "y": 341.146
+      },
+      {
+        "x": 167.336,
+        "y": 350.147
+      },
+      {
+        "x": 177.711,
+        "y": 360.358
+      },
+      {
+        "x": 222.882,
+        "y": 384.649
+      },
+      {
+        "x": 247.967,
+        "y": 382.659
+      },
+      {
+        "x": 309.99,
+        "y": 356.899
+      },
+      {
+        "x": 341.146,
+        "y": 353.887
+      },
+      {
+        "x": 383.187,
+        "y": 361.82
+      },
+      {
+        "x": 427.454,
+        "y": 383.328
+      }
+    ],
+    "sectorBoundaries": [
+      {
+        "x": 172.079,
+        "y": 628.29
+      },
+      {
+        "x": 838.993,
+        "y": 350.316
+      }
+    ],
+    "startFinish": {
+      "x": 443.249,
+      "y": 393.369
+    },
+    "viewBox": [
+      0,
+      0,
+      1000,
+      1000
+    ]
+  }
+}

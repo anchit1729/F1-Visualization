@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+dist/
+coverage/
+.cache/
+tools/ingestion/data/
+apps/replay/ios/
+apps/replay/android/

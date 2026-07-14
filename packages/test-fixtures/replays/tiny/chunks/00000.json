@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "replayId": "tiny-race",
+  "startMs": 0,
+  "endMs": 5000,
+  "locationsByDriver": {
+    "driver-1": [
+      { "timeMs": 0, "x": 10, "y": 30, "quality": "source" },
+      { "timeMs": 2500, "x": 50, "y": 10, "quality": "source" },
+      { "timeMs": 5000, "x": 90, "y": 30, "quality": "source" }
+    ],
+    "driver-2": [
+      { "timeMs": 500, "x": 11, "y": 31, "quality": "source" },
+      { "timeMs": 3000, "x": 51, "y": 11, "quality": "source" },
+      { "timeMs": 5000, "x": 88, "y": 31, "quality": "interpolated" }
+    ]
+  },
+  "telemetryByDriver": {
+    "driver-1": [
+      {
+        "timeMs": 0,
+        "speedKph": 100,
+        "throttlePercent": 60,
+        "brakeApplied": false,
+        "rpm": 8000,
+        "gear": 4,
+        "drs": 0,
+        "longitudinalG": 0,
+        "lateralG": 0.2,
+        "gForceQuality": "estimated",
+        "sourceGapMs": 5000
+      },
+      {
+        "timeMs": 5000,
+        "speedKph": 220,
+        "throttlePercent": 100,
+        "brakeApplied": false,
+        "rpm": 11000,
+        "gear": 7,
+        "drs": 10,
+        "longitudinalG": 0.4,
+        "lateralG": 1.1,
+        "gForceQuality": "estimated",
+        "sourceGapMs": 5000
+      }
+    ],
+    "driver-2": [
+      {
+        "timeMs": 500,
+        "speedKph": 95,
+        "throttlePercent": null,
+        "brakeApplied": null,
+        "rpm": null,
+        "gear": 3,
+        "drs": null,
+        "longitudinalG": null,
+        "lateralG": null,
+        "gForceQuality": "unavailable",
+        "sourceGapMs": null
+      }
+    ]
+  }
+}

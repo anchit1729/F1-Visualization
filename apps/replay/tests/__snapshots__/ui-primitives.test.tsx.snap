@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`motorsport surface policy keeps all semantic material variants stable in light and dark 1`] = `
+<View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#e9ebed",
+          "borderColor": "#c4c8cd",
+          "borderRadius": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      light chrome
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#c4c8cd",
+          "borderRadius": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      light panel
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#b9bec5",
+          "borderRadius": 2,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      light control
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#101216",
+          "borderColor": "#34383e",
+          "borderRadius": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      dark chrome
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#15171b",
+          "borderColor": "#34383e",
+          "borderRadius": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      dark panel
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#202329",
+          "borderColor": "#41464e",
+          "borderRadius": 2,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      dark control
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`motorsport surface policy keeps the desktop material frame stable: desktop 1`] = `
+<View
+  style={
+    {
+      "width": 1024,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#101216",
+          "borderColor": "#34383e",
+          "borderRadius": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      desktop
+       chrome
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#c4c8cd",
+          "borderRadius": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      desktop
+       panel
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`motorsport surface policy keeps the mobile material frame stable: mobile 1`] = `
+<View
+  style={
+    {
+      "width": 390,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#101216",
+          "borderColor": "#34383e",
+          "borderRadius": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      mobile
+       chrome
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderWidth": 0.5,
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#fafafa",
+          "borderColor": "#c4c8cd",
+          "borderRadius": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text>
+      mobile
+       panel
+    </Text>
+  </View>
+</View>
+`;

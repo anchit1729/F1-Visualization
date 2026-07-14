@@ -1,0 +1,164 @@
+{
+  "chunks": [
+    {
+      "byteSize": 3229,
+      "endMs": 5000,
+      "sha256": "d9152bc3a43d9ff98f3e868481455191d1e294fb3a725c4e0d7461f62236032b",
+      "startMs": 0,
+      "url": "chunks/00000.json"
+    },
+    {
+      "byteSize": 3659,
+      "endMs": 10000,
+      "sha256": "9650f272962a0da099e7dea13c0c556e4f92f9efcb2f60ca8638809e934bbd19",
+      "startMs": 5000,
+      "url": "chunks/00001.json"
+    }
+  ],
+  "dataQuality": {
+    "derivedGForce": "estimated",
+    "excludedLocationSamplePercentage": 0.0,
+    "warnings": [
+      "Driver 5 lap 1: incomplete sector timing",
+      "Driver 5 lap 1: missing duration; interval bounded by source time"
+    ]
+  },
+  "drivers": [
+    {
+      "code": "ONE",
+      "driverNumber": 4,
+      "id": "driver-4",
+      "name": "Driver One",
+      "teamColor": "#D3130B",
+      "teamName": "Red Team"
+    },
+    {
+      "code": "TWO",
+      "driverNumber": 5,
+      "id": "driver-5",
+      "name": "Driver Two",
+      "teamColor": "#1464F4",
+      "teamName": "Blue Team"
+    }
+  ],
+  "id": "tiny-demo",
+  "laps": [
+    {
+      "driverId": "driver-4",
+      "durationMs": 10000,
+      "endMs": 10000,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        3000,
+        3500,
+        3500
+      ],
+      "startMs": 0
+    },
+    {
+      "driverId": "driver-5",
+      "durationMs": null,
+      "endMs": 10000,
+      "isPitOutLap": false,
+      "isValid": false,
+      "lapNumber": 1,
+      "sectorsMs": [
+        3200,
+        null,
+        null
+      ],
+      "startMs": 500
+    }
+  ],
+  "overallFastestLap": {
+    "driverId": "driver-4",
+    "durationMs": 10000,
+    "lapNumber": 1
+  },
+  "provenance": [
+    {
+      "provider": "filesystem",
+      "retrievedAtUtc": "2024-01-01T12:00:00Z",
+      "sourceHash": "995422f248bd0f43a428fa59938c84d1a370fb104b30e75a37a2f5eac2d1ba86",
+      "sourceUrl": "https://f1-replay.local/fixtures/tiny",
+      "transformationVersion": "ingestion-v1"
+    }
+  ],
+  "schemaVersion": 1,
+  "sessionStartUtc": "2024-01-01T12:00:00Z",
+  "timeline": {
+    "chunkDurationMs": 5000,
+    "endMs": 10000,
+    "startMs": 0
+  },
+  "track": {
+    "centerline": [
+      {
+        "x": 89.333,
+        "y": 412.0
+      },
+      {
+        "x": 116.32,
+        "y": 634.933
+      },
+      {
+        "x": 152.693,
+        "y": 758.133
+      },
+      {
+        "x": 204.32,
+        "y": 822.667
+      },
+      {
+        "x": 470.667,
+        "y": 869.6
+      },
+      {
+        "x": 752.267,
+        "y": 805.067
+      },
+      {
+        "x": 916.533,
+        "y": 582.133
+      },
+      {
+        "x": 857.867,
+        "y": 306.4
+      },
+      {
+        "x": 588.0,
+        "y": 142.133
+      },
+      {
+        "x": 300.533,
+        "y": 194.933
+      },
+      {
+        "x": 89.333,
+        "y": 412.0
+      }
+    ],
+    "sectorBoundaries": [
+      {
+        "x": 916.533,
+        "y": 582.133
+      },
+      {
+        "x": 300.533,
+        "y": 194.933
+      }
+    ],
+    "startFinish": {
+      "x": 193.789,
+      "y": 809.502
+    },
+    "viewBox": [
+      0,
+      0,
+      1000,
+      1000
+    ]
+  }
+}

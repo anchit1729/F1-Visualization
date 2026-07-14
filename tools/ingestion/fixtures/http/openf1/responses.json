@@ -1,0 +1,86 @@
+{
+  "car_data?driver_number=4&session_key=10": {
+    "body": [
+      {
+        "brake": 0,
+        "date": "2024-01-01T12:00:00Z",
+        "driver_number": 4,
+        "n_gear": 2,
+        "rpm": 7000,
+        "session_key": 10,
+        "speed": 100,
+        "throttle": 50
+      }
+    ],
+    "headers": {},
+    "status": 200
+  },
+  "drivers?session_key=10": {
+    "body": [
+      {
+        "driver_number": 4,
+        "full_name": "Driver One",
+        "session_key": 10
+      }
+    ],
+    "headers": {},
+    "status": 200
+  },
+  "laps?session_key=10": {
+    "body": [
+      {
+        "driver_number": 4,
+        "lap_duration": 10.0,
+        "lap_number": 1,
+        "session_key": 10
+      }
+    ],
+    "headers": {},
+    "status": 200
+  },
+  "location?driver_number=4&session_key=10": {
+    "body": [
+      {
+        "date": "2024-01-01T12:00:00Z",
+        "driver_number": 4,
+        "session_key": 10,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    ],
+    "headers": {},
+    "status": 200
+  },
+  "meetings?year=2024": {
+    "body": [
+      {
+        "circuit_short_name": "Tiny Circuit",
+        "country_name": "Tinyland",
+        "location": "Tiny City",
+        "meeting_key": 1,
+        "meeting_name": "Tiny Grand Prix",
+        "year": 2024
+      }
+    ],
+    "headers": {
+      "ETag": "tiny-meetings",
+      "Last-Modified": "Mon, 01 Jan 2024 00:00:00 GMT"
+    },
+    "status": 200
+  },
+  "sessions?meeting_key=1": {
+    "body": [
+      {
+        "date_start": "2024-01-01T12:00:00Z",
+        "date_end": "2024-01-01T12:00:10Z",
+        "meeting_key": 1,
+        "session_key": 10,
+        "session_name": "Race",
+        "session_type": "Race"
+      }
+    ],
+    "headers": {},
+    "status": 200
+  }
+}

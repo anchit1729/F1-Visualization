@@ -1,0 +1,47 @@
+{
+  "name": "f1-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Web-first universal Formula 1 race replay demo",
+  "packageManager": "npm@11.9.0",
+  "engines": {
+    "node": ">=22.13.0 <23",
+    "npm": ">=10 <12"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "android": "npm run android --workspace @f1/replay",
+    "build:web": "npm run export:web --workspace @f1/replay",
+    "ci": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run build:web",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --ext .js,.cjs,.mjs,.ts,.tsx --max-warnings=0",
+    "replay:prepare": "python3 -m tools.ingestion.f1_replay build --recipe tools/ingestion/recipes/tiny.json",
+    "ios": "npm run ios --workspace @f1/replay",
+    "ios:device": "npm run ios:device --workspace @f1/replay",
+    "start": "npm run start --workspace @f1/replay",
+    "test": "npm run test:js && npm run test:app && npm run test:python",
+    "test:app": "npm run test --workspace @f1/replay",
+    "test:js": "node --test",
+    "test:python": "python3 -m pytest tools/ingestion/tests",
+    "typecheck": "npm run typecheck --workspace @f1/domain && npm run typecheck --workspace @f1/replay",
+    "web": "npm run web --workspace @f1/replay"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "8.63.0",
+    "@typescript-eslint/parser": "8.63.0",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-native": "5.0.0",
+    "prettier": "3.6.2",
+    "typescript": "6.0.3"
+  }
+}

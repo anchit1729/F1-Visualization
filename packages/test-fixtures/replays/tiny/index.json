@@ -1,0 +1,100 @@
+{
+  "id": "tiny-race",
+  "schemaVersion": 1,
+  "sessionStartUtc": "2024-01-01T12:00:00Z",
+  "timeline": {
+    "startMs": 0,
+    "endMs": 10000,
+    "chunkDurationMs": 5000
+  },
+  "track": {
+    "viewBox": [0, 0, 100, 60],
+    "centerline": [
+      { "x": 10, "y": 30 },
+      { "x": 50, "y": 10 },
+      { "x": 90, "y": 30 },
+      { "x": 50, "y": 50 },
+      { "x": 10, "y": 30 }
+    ],
+    "startFinish": { "x": 10, "y": 30 },
+    "sectorBoundaries": [
+      { "x": 50, "y": 10 },
+      { "x": 50, "y": 50 }
+    ]
+  },
+  "drivers": [
+    {
+      "id": "driver-1",
+      "driverNumber": 1,
+      "code": "ONE",
+      "name": "Driver One",
+      "teamName": "Red Team",
+      "teamColor": "#d3130b"
+    },
+    {
+      "id": "driver-2",
+      "driverNumber": 2,
+      "code": "TWO",
+      "name": "Driver Two",
+      "teamName": "Blue Team",
+      "teamColor": "#1464f4"
+    }
+  ],
+  "laps": [
+    {
+      "driverId": "driver-1",
+      "lapNumber": 1,
+      "startMs": 0,
+      "endMs": 10000,
+      "durationMs": 10000,
+      "sectorsMs": [3000, 3500, 3500],
+      "isPitOutLap": false,
+      "isValid": true
+    },
+    {
+      "driverId": "driver-2",
+      "lapNumber": 1,
+      "startMs": 500,
+      "endMs": 10000,
+      "durationMs": null,
+      "sectorsMs": [3200, null, null],
+      "isPitOutLap": false,
+      "isValid": false
+    }
+  ],
+  "overallFastestLap": {
+    "driverId": "driver-1",
+    "lapNumber": 1,
+    "durationMs": 10000
+  },
+  "chunks": [
+    {
+      "startMs": 0,
+      "endMs": 5000,
+      "url": "chunks/00000.json",
+      "byteSize": 1024,
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "startMs": 5000,
+      "endMs": 10000,
+      "url": "chunks/00001.json",
+      "byteSize": 1024,
+      "sha256": "3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  ],
+  "dataQuality": {
+    "warnings": ["Driver Two has intentionally missing telemetry."],
+    "excludedLocationSamplePercentage": 0,
+    "derivedGForce": "low"
+  },
+  "provenance": [
+    {
+      "provider": "fixture",
+      "sourceUrl": "https://openf1.org/docs/",
+      "retrievedAtUtc": "2024-01-01T00:00:00Z",
+      "sourceHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "transformationVersion": "fixture-v1"
+    }
+  ]
+}

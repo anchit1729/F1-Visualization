@@ -1,0 +1,33 @@
+{
+  "endMs": 744394,
+  "locationsByDriver": {
+    "driver-1": [
+      {
+        "quality": "source",
+        "timeMs": 744108,
+        "x": 427.454,
+        "y": 383.328
+      }
+    ]
+  },
+  "replayId": "2024-miami-verstappen-fastest-lap",
+  "schemaVersion": 1,
+  "startMs": 743979,
+  "telemetryByDriver": {
+    "driver-1": [
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 7,
+        "lateralG": 0.6686,
+        "longitudinalG": 0.2529,
+        "rpm": 11121,
+        "sourceGapMs": 420,
+        "speedKph": 279.0,
+        "throttlePercent": 100.0,
+        "timeMs": 744055
+      }
+    ]
+  }
+}

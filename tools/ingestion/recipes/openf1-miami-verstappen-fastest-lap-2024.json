@@ -1,0 +1,27 @@
+{
+  "provider": "openf1",
+  "year": 2024,
+  "meeting": "Miami",
+  "sessionType": "Sprint",
+  "cache": "../data/raw/openf1",
+  "output": "../data/output/openf1-miami-sprint-2024/provider-snapshot.json",
+  "timingOutput": "../data/output/openf1-miami-sprint-2024/timing-report.json",
+  "geometryOutput": "../data/output/openf1-miami-sprint-2024/geometry-report.json",
+  "telemetryOutput": "../data/output/openf1-miami-sprint-2024/telemetry-report.json",
+  "artifact": {
+    "root": "../../../apps/replay/public/replays/v1",
+    "id": "2024-miami-verstappen-fastest-lap",
+    "title": "Verstappen's Miami Sprint Fastest Lap",
+    "subtitle": "Miami International Autodrome · Lap 4 · 1:30.415",
+    "replayScope": "lap",
+    "lap": {
+      "driverNumber": 1,
+      "lapNumber": 4
+    },
+    "chunkDurationMs": 15000,
+    "maxTotalBytes": 10000000,
+    "maxInitialBytes": 5000000,
+    "transformationVersion": "ingestion-v1",
+    "budgetOutput": "../data/output/openf1-miami-sprint-2024/verstappen-fastest-lap-budget.json"
+  }
+}

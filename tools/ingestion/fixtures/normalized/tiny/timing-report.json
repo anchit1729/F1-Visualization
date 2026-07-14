@@ -1,0 +1,73 @@
+{
+  "drivers": [
+    {
+      "code": "ONE",
+      "driverNumber": 4,
+      "id": "driver-4",
+      "name": "Driver One",
+      "teamColor": "#D3130B",
+      "teamName": "Red Team"
+    },
+    {
+      "code": "TWO",
+      "driverNumber": 5,
+      "id": "driver-5",
+      "name": "Driver Two",
+      "teamColor": "#1464F4",
+      "teamName": "Blue Team"
+    }
+  ],
+  "fastestLapsByDriver": [
+    {
+      "driverId": "driver-4",
+      "durationMs": 10000,
+      "lapNumber": 1
+    }
+  ],
+  "laps": [
+    {
+      "driverId": "driver-4",
+      "durationMs": 10000,
+      "endMs": 10000,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [3000, 3500, 3500],
+      "startMs": 0
+    },
+    {
+      "driverId": "driver-5",
+      "durationMs": null,
+      "endMs": 10000,
+      "isPitOutLap": false,
+      "isValid": false,
+      "lapNumber": 1,
+      "sectorsMs": [3200, null, null],
+      "startMs": 500
+    }
+  ],
+  "lastLapsByDriver": [
+    {
+      "driverId": "driver-4",
+      "durationMs": 10000,
+      "lapNumber": 1
+    },
+    {
+      "driverId": "driver-5",
+      "durationMs": null,
+      "lapNumber": 1
+    }
+  ],
+  "normalizationVersion": 1,
+  "overallFastestLap": {
+    "driverId": "driver-4",
+    "durationMs": 10000,
+    "lapNumber": 1
+  },
+  "sessionEndMs": 10000,
+  "sessionStartUtc": "2024-01-01T12:00:00Z",
+  "warnings": [
+    "Driver 5 lap 1: incomplete sector timing",
+    "Driver 5 lap 1: missing duration; interval bounded by source time"
+  ]
+}

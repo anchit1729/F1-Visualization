@@ -1,0 +1,1058 @@
+{
+  "endMs": 3526507,
+  "locationsByDriver": {
+    "driver-1": [
+      {
+        "quality": "source",
+        "timeMs": 3511599,
+        "x": 391.678,
+        "y": 195.305
+      },
+      {
+        "quality": "source",
+        "timeMs": 3511799,
+        "x": 388.603,
+        "y": 190.714
+      },
+      {
+        "quality": "source",
+        "timeMs": 3511979,
+        "x": 385.831,
+        "y": 186.469
+      },
+      {
+        "quality": "source",
+        "timeMs": 3512239,
+        "x": 381.673,
+        "y": 180.232
+      },
+      {
+        "quality": "source",
+        "timeMs": 3512420,
+        "x": 378.468,
+        "y": 175.338
+      },
+      {
+        "quality": "source",
+        "timeMs": 3512600,
+        "x": 375.48,
+        "y": 170.877
+      },
+      {
+        "quality": "source",
+        "timeMs": 3512800,
+        "x": 372.145,
+        "y": 165.81
+      },
+      {
+        "quality": "source",
+        "timeMs": 3513140,
+        "x": 366.471,
+        "y": 157.277
+      },
+      {
+        "quality": "source",
+        "timeMs": 3513340,
+        "x": 363.179,
+        "y": 152.296
+      },
+      {
+        "quality": "source",
+        "timeMs": 3513520,
+        "x": 360.018,
+        "y": 147.532
+      },
+      {
+        "quality": "source",
+        "timeMs": 3513760,
+        "x": 355.773,
+        "y": 141.122
+      },
+      {
+        "quality": "source",
+        "timeMs": 3514000,
+        "x": 350.922,
+        "y": 133.803
+      },
+      {
+        "quality": "source",
+        "timeMs": 3514260,
+        "x": 346.591,
+        "y": 127.219
+      },
+      {
+        "quality": "source",
+        "timeMs": 3514480,
+        "x": 342.736,
+        "y": 121.415
+      },
+      {
+        "quality": "source",
+        "timeMs": 3514740,
+        "x": 338.189,
+        "y": 114.572
+      },
+      {
+        "quality": "source",
+        "timeMs": 3514920,
+        "x": 335.114,
+        "y": 109.938
+      },
+      {
+        "quality": "source",
+        "timeMs": 3515080,
+        "x": 332.472,
+        "y": 105.91
+      },
+      {
+        "quality": "source",
+        "timeMs": 3515440,
+        "x": 326.668,
+        "y": 97.118
+      },
+      {
+        "quality": "source",
+        "timeMs": 3515800,
+        "x": 323.679,
+        "y": 92.484
+      },
+      {
+        "quality": "source",
+        "timeMs": 3516000,
+        "x": 320.561,
+        "y": 87.459
+      },
+      {
+        "quality": "source",
+        "timeMs": 3516400,
+        "x": 318.266,
+        "y": 83.431
+      },
+      {
+        "quality": "source",
+        "timeMs": 3516580,
+        "x": 317.01,
+        "y": 81.006
+      },
+      {
+        "quality": "source",
+        "timeMs": 3516820,
+        "x": 315.71,
+        "y": 78.018
+      },
+      {
+        "quality": "source",
+        "timeMs": 3516980,
+        "x": 315.017,
+        "y": 76.069
+      },
+      {
+        "quality": "source",
+        "timeMs": 3517260,
+        "x": 314.194,
+        "y": 72.907
+      },
+      {
+        "quality": "source",
+        "timeMs": 3517480,
+        "x": 313.934,
+        "y": 69.182
+      },
+      {
+        "quality": "source",
+        "timeMs": 3517959,
+        "x": 314.584,
+        "y": 65.414
+      },
+      {
+        "quality": "source",
+        "timeMs": 3518279,
+        "x": 316.143,
+        "y": 62.729
+      },
+      {
+        "quality": "source",
+        "timeMs": 3518639,
+        "x": 317.399,
+        "y": 61.646
+      },
+      {
+        "quality": "source",
+        "timeMs": 3518839,
+        "x": 318.655,
+        "y": 60.91
+      },
+      {
+        "quality": "source",
+        "timeMs": 3519220,
+        "x": 321.471,
+        "y": 60.087
+      },
+      {
+        "quality": "source",
+        "timeMs": 3519400,
+        "x": 323.766,
+        "y": 60.087
+      },
+      {
+        "quality": "source",
+        "timeMs": 3519660,
+        "x": 324.806,
+        "y": 60.26
+      },
+      {
+        "quality": "source",
+        "timeMs": 3520020,
+        "x": 328.79,
+        "y": 61.169
+      },
+      {
+        "quality": "source",
+        "timeMs": 3520320,
+        "x": 330.133,
+        "y": 61.559
+      },
+      {
+        "quality": "source",
+        "timeMs": 3520580,
+        "x": 332.515,
+        "y": 62.382
+      },
+      {
+        "quality": "source",
+        "timeMs": 3520780,
+        "x": 334.551,
+        "y": 63.162
+      },
+      {
+        "quality": "source",
+        "timeMs": 3521280,
+        "x": 340.008,
+        "y": 65.544
+      },
+      {
+        "quality": "source",
+        "timeMs": 3521620,
+        "x": 345.638,
+        "y": 68.272
+      },
+      {
+        "quality": "source",
+        "timeMs": 3522020,
+        "x": 349.233,
+        "y": 70.092
+      },
+      {
+        "quality": "source",
+        "timeMs": 3522200,
+        "x": 354.127,
+        "y": 72.604
+      },
+      {
+        "quality": "source",
+        "timeMs": 3522640,
+        "x": 362.573,
+        "y": 76.891
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523040,
+        "x": 367.9,
+        "y": 79.62
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523280,
+        "x": 372.751,
+        "y": 82.089
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523460,
+        "x": 376.519,
+        "y": 84.038
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523740,
+        "x": 382.626,
+        "y": 87.286
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523940,
+        "x": 387.087,
+        "y": 89.755
+      },
+      {
+        "quality": "source",
+        "timeMs": 3523960,
+        "x": 387.564,
+        "y": 89.971
+      },
+      {
+        "quality": "source",
+        "timeMs": 3524179,
+        "x": 392.631,
+        "y": 92.917
+      },
+      {
+        "quality": "source",
+        "timeMs": 3524519,
+        "x": 400.644,
+        "y": 97.811
+      },
+      {
+        "quality": "source",
+        "timeMs": 3524739,
+        "x": 407.314,
+        "y": 102.272
+      },
+      {
+        "quality": "source",
+        "timeMs": 3524979,
+        "x": 411.645,
+        "y": 105.304
+      },
+      {
+        "quality": "source",
+        "timeMs": 3525259,
+        "x": 418.358,
+        "y": 110.284
+      },
+      {
+        "quality": "source",
+        "timeMs": 3525560,
+        "x": 427.973,
+        "y": 117.864
+      },
+      {
+        "quality": "source",
+        "timeMs": 3525820,
+        "x": 432.304,
+        "y": 121.459
+      },
+      {
+        "quality": "source",
+        "timeMs": 3526160,
+        "x": 440.1,
+        "y": 128.475
+      },
+      {
+        "quality": "source",
+        "timeMs": 3526360,
+        "x": 444.475,
+        "y": 132.72
+      }
+    ]
+  },
+  "replayId": "2023-belgium-verstappen-fastest-lap",
+  "schemaVersion": 1,
+  "startMs": 3511507,
+  "telemetryByDriver": {
+    "driver-1": [
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.4004,
+        "longitudinalG": 0.8852,
+        "rpm": 11727,
+        "sourceGapMs": 280,
+        "speedKph": 230.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3511735
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": -0.288,
+        "longitudinalG": 0.6598,
+        "rpm": 11785,
+        "sourceGapMs": 401,
+        "speedKph": 235.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3511935
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": -0.3971,
+        "longitudinalG": 0.5407,
+        "rpm": 10893,
+        "sourceGapMs": 401,
+        "speedKph": 244.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3512336
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.3007,
+        "longitudinalG": 0.6173,
+        "rpm": 11139,
+        "sourceGapMs": 280,
+        "speedKph": 250.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3512616
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": -0.1254,
+        "longitudinalG": 0.4721,
+        "rpm": 11357,
+        "sourceGapMs": 340,
+        "speedKph": 254.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3512856
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.0762,
+        "longitudinalG": 0.4358,
+        "rpm": 11605,
+        "sourceGapMs": 340,
+        "speedKph": 259.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3513176
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": -0.071,
+        "longitudinalG": 0.526,
+        "rpm": 11646,
+        "sourceGapMs": 200,
+        "speedKph": 263.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3513376
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.0316,
+        "longitudinalG": 0.5328,
+        "rpm": 10946,
+        "sourceGapMs": 240,
+        "speedKph": 265.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3513535
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": -0.0121,
+        "longitudinalG": 0.3344,
+        "rpm": 10595,
+        "sourceGapMs": 320,
+        "speedKph": 268.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3513695
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 7,
+        "lateralG": 0.1071,
+        "longitudinalG": 0.3147,
+        "rpm": 10744,
+        "sourceGapMs": 320,
+        "speedKph": 272.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3514015
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 7,
+        "lateralG": -0.1433,
+        "longitudinalG": -0.2124,
+        "rpm": 10859,
+        "sourceGapMs": 260,
+        "speedKph": 273.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3514175
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 7,
+        "lateralG": -0.0063,
+        "longitudinalG": -1.0858,
+        "rpm": 10477,
+        "sourceGapMs": 360,
+        "speedKph": 276.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3514415
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 7,
+        "lateralG": 0.0205,
+        "longitudinalG": -1.6523,
+        "rpm": 9871,
+        "sourceGapMs": 400,
+        "speedKph": 255.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3514775
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": -0.0712,
+        "longitudinalG": -2.1938,
+        "rpm": 10429,
+        "sourceGapMs": 400,
+        "speedKph": 221.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3515175
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.1628,
+        "longitudinalG": -2.6555,
+        "rpm": 11562,
+        "sourceGapMs": 360,
+        "speedKph": 195.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3515455
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 4,
+        "lateralG": 0.3153,
+        "longitudinalG": -2.4077,
+        "rpm": 11702,
+        "sourceGapMs": 360,
+        "speedKph": 178.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3515655
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 3,
+        "lateralG": 0.2887,
+        "longitudinalG": -2.1952,
+        "rpm": 11532,
+        "sourceGapMs": 360,
+        "speedKph": 163.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3515855
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 3,
+        "lateralG": 0.5342,
+        "longitudinalG": -1.8412,
+        "rpm": 10443,
+        "sourceGapMs": 400,
+        "speedKph": 151.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3516055
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 3,
+        "lateralG": 0.5039,
+        "longitudinalG": -1.0337,
+        "rpm": 10396,
+        "sourceGapMs": 760,
+        "speedKph": 129.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3516455
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.9907,
+        "longitudinalG": -1.0879,
+        "rpm": 8177,
+        "sourceGapMs": 760,
+        "speedKph": 95.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3517215
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.7933,
+        "longitudinalG": -1.5343,
+        "rpm": 7457,
+        "sourceGapMs": 479,
+        "speedKph": 92.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3517375
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.5984,
+        "longitudinalG": -0.6295,
+        "rpm": 6888,
+        "sourceGapMs": 479,
+        "speedKph": 82.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3517615
+      },
+      {
+        "brakeApplied": true,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.9394,
+        "longitudinalG": -0.6344,
+        "rpm": 6202,
+        "sourceGapMs": 479,
+        "speedKph": 77.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3517975
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.9429,
+        "longitudinalG": -0.4983,
+        "rpm": 5577,
+        "sourceGapMs": 440,
+        "speedKph": 70.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3518255
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.1201,
+        "longitudinalG": -0.4249,
+        "rpm": 5253,
+        "sourceGapMs": 440,
+        "speedKph": 61.0,
+        "throttlePercent": 0.0,
+        "timeMs": 3518695
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.4375,
+        "longitudinalG": -0.2353,
+        "rpm": 5392,
+        "sourceGapMs": 381,
+        "speedKph": 60.0,
+        "throttlePercent": 2.0,
+        "timeMs": 3518855
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.4375,
+        "longitudinalG": 0.157,
+        "rpm": 5311,
+        "sourceGapMs": 381,
+        "speedKph": 60.0,
+        "throttlePercent": 5.0,
+        "timeMs": 3519016
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 1.3371,
+        "longitudinalG": 0.2083,
+        "rpm": 5691,
+        "sourceGapMs": 360,
+        "speedKph": 63.0,
+        "throttlePercent": 15.0,
+        "timeMs": 3519336
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.3587,
+        "longitudinalG": 0.2656,
+        "rpm": 6015,
+        "sourceGapMs": 360,
+        "speedKph": 66.0,
+        "throttlePercent": 14.0,
+        "timeMs": 3519696
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.3453,
+        "longitudinalG": 0.5519,
+        "rpm": 6722,
+        "sourceGapMs": 360,
+        "speedKph": 69.0,
+        "throttlePercent": 23.0,
+        "timeMs": 3519976
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.3645,
+        "longitudinalG": 0.6649,
+        "rpm": 6747,
+        "sourceGapMs": 440,
+        "speedKph": 72.0,
+        "throttlePercent": 24.0,
+        "timeMs": 3520175
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.3474,
+        "longitudinalG": 0.6584,
+        "rpm": 7951,
+        "sourceGapMs": 440,
+        "speedKph": 85.0,
+        "throttlePercent": 39.0,
+        "timeMs": 3520615
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.3515,
+        "longitudinalG": 1.0032,
+        "rpm": 9174,
+        "sourceGapMs": 500,
+        "speedKph": 95.0,
+        "throttlePercent": 55.0,
+        "timeMs": 3520935
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.2646,
+        "longitudinalG": 0.9048,
+        "rpm": 9260,
+        "sourceGapMs": 500,
+        "speedKph": 99.0,
+        "throttlePercent": 55.0,
+        "timeMs": 3521095
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.2914,
+        "longitudinalG": 0.8262,
+        "rpm": 9941,
+        "sourceGapMs": 500,
+        "speedKph": 109.0,
+        "throttlePercent": 55.0,
+        "timeMs": 3521415
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.1561,
+        "longitudinalG": 1.251,
+        "rpm": 10915,
+        "sourceGapMs": 400,
+        "speedKph": 117.0,
+        "throttlePercent": 76.0,
+        "timeMs": 3521655
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.1682,
+        "longitudinalG": 1.2746,
+        "rpm": 11475,
+        "sourceGapMs": 400,
+        "speedKph": 126.0,
+        "throttlePercent": 76.0,
+        "timeMs": 3521815
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": 0.0735,
+        "longitudinalG": 1.309,
+        "rpm": 12646,
+        "sourceGapMs": 400,
+        "speedKph": 135.0,
+        "throttlePercent": 91.0,
+        "timeMs": 3522055
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 2,
+        "lateralG": -0.06,
+        "longitudinalG": 1.6309,
+        "rpm": 12804,
+        "sourceGapMs": 440,
+        "speedKph": 145.0,
+        "throttlePercent": 91.0,
+        "timeMs": 3522255
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 3,
+        "lateralG": 0.0402,
+        "longitudinalG": 1.254,
+        "rpm": 12011,
+        "sourceGapMs": 440,
+        "speedKph": 159.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3522495
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 4,
+        "lateralG": -0.0416,
+        "longitudinalG": 1.2904,
+        "rpm": 11091,
+        "sourceGapMs": 400,
+        "speedKph": 178.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3522895
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 4,
+        "lateralG": -0.0437,
+        "longitudinalG": 1.133,
+        "rpm": 11424,
+        "sourceGapMs": 400,
+        "speedKph": 187.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3523095
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 4,
+        "lateralG": 0.2806,
+        "longitudinalG": 0.8114,
+        "rpm": 11845,
+        "sourceGapMs": 400,
+        "speedKph": 199.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3523495
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.4138,
+        "longitudinalG": 1.1094,
+        "rpm": 10882,
+        "sourceGapMs": 280,
+        "speedKph": 210.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3523735
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": -4.3419,
+        "longitudinalG": 1.1566,
+        "rpm": 11140,
+        "sourceGapMs": 240,
+        "speedKph": 210.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3523895
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.4894,
+        "longitudinalG": 0.8655,
+        "rpm": 11418,
+        "sourceGapMs": 360,
+        "speedKph": 223.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3524135
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.9794,
+        "longitudinalG": 0.7967,
+        "rpm": 11808,
+        "sourceGapMs": 360,
+        "speedKph": 235.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3524495
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 5,
+        "lateralG": 0.6291,
+        "longitudinalG": 0.7081,
+        "rpm": 10638,
+        "sourceGapMs": 280,
+        "speedKph": 240.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3524775
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.7397,
+        "longitudinalG": 0.5901,
+        "rpm": 11002,
+        "sourceGapMs": 280,
+        "speedKph": 247.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3525055
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.7237,
+        "longitudinalG": 0.6851,
+        "rpm": 11308,
+        "sourceGapMs": 301,
+        "speedKph": 253.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3525335
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.6542,
+        "longitudinalG": 0.4893,
+        "rpm": 11308,
+        "sourceGapMs": 360,
+        "speedKph": 257.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3525496
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 0.9891,
+        "longitudinalG": 0.3878,
+        "rpm": 11666,
+        "sourceGapMs": 360,
+        "speedKph": 262.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3525856
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 1.0434,
+        "longitudinalG": 0.4485,
+        "rpm": 11795,
+        "sourceGapMs": 340,
+        "speedKph": 265.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3526056
+      },
+      {
+        "brakeApplied": false,
+        "drs": 1,
+        "gForceQuality": "estimated",
+        "gear": 6,
+        "lateralG": 1.0552,
+        "longitudinalG": 0.3631,
+        "rpm": 11105,
+        "sourceGapMs": 340,
+        "speedKph": 268.0,
+        "throttlePercent": 100.0,
+        "timeMs": 3526256
+      }
+    ]
+  }
+}

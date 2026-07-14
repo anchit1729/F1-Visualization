@@ -1,0 +1,47 @@
+{
+  "name": "@f1/replay",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "android": "expo run:android",
+    "export:web": "expo export --platform web",
+    "ios": "expo run:ios",
+    "ios:device": "expo run:ios --device",
+    "start": "expo start --dev-client",
+    "test": "jest --runInBand",
+    "typecheck": "tsc --noEmit",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@f1/domain": "*",
+    "@f1/test-fixtures": "*",
+    "expo": "~57.0.4",
+    "expo-constants": "~57.0.3",
+    "expo-dev-client": "~57.0.5",
+    "expo-haptics": "~57.0.0",
+    "expo-linking": "~57.0.2",
+    "expo-router": "~57.0.4",
+    "expo-status-bar": "~57.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.25.2",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "14.0.1",
+    "@types/jest": "29.5.14",
+    "@types/react": "~19.2.2",
+    "jest": "29.7.0",
+    "jest-expo": "57.0.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^\\./feedbackAdapter$": "<rootDir>/src/features/feedback/feedbackAdapter.ts"
+    },
+    "preset": "jest-expo"
+  }
+}

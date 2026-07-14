@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "replays": [
+    {
+      "id": "tiny-race",
+      "schemaVersion": 1,
+      "title": "Tiny Grand Prix",
+      "subtitle": "Two-driver contract fixture",
+      "season": 2024,
+      "meetingName": "Fixture Grand Prix",
+      "sessionName": "Race",
+      "replayScope": "race",
+      "durationMs": 10000,
+      "startTimeMs": 0,
+      "endTimeMs": 10000,
+      "driverCount": 2,
+      "trackPreview": {
+        "viewBox": [0, 0, 100, 60],
+        "centerline": [
+          { "x": 10, "y": 30 },
+          { "x": 50, "y": 10 },
+          { "x": 90, "y": 30 },
+          { "x": 50, "y": 50 },
+          { "x": 10, "y": 30 }
+        ],
+        "startFinish": { "x": 10, "y": 30 },
+        "sectorBoundaries": [
+          { "x": 50, "y": 10 },
+          { "x": 50, "y": 50 }
+        ]
+      },
+      "bundle": {
+        "indexUrl": "replays/tiny-race/index.json",
+        "byteSize": 2048,
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+      },
+      "provenance": [
+        {
+          "provider": "fixture",
+          "sourceUrl": "https://openf1.org/docs/",
+          "retrievedAtUtc": "2024-01-01T00:00:00Z",
+          "sourceHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "transformationVersion": "fixture-v1"
+        }
+      ]
+    }
+  ]
+}

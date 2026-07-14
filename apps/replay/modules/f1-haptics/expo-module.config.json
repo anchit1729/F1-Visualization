@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["F1HapticsModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.f1haptics.F1HapticsModule"]
+  }
+}

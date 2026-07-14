@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://f1-replay.local/schemas/replay-chunk.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "replayId",
+    "startMs",
+    "endMs",
+    "locationsByDriver",
+    "telemetryByDriver"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "replayId": { "type": "string", "minLength": 1 },
+    "startMs": { "type": "integer", "minimum": 0 },
+    "endMs": { "type": "integer", "minimum": 0 },
+    "locationsByDriver": {
+      "type": "object",
+      "propertyNames": { "minLength": 1 },
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "common.schema.json#/$defs/positionSample" }
+      }
+    },
+    "telemetryByDriver": {
+      "type": "object",
+      "propertyNames": { "minLength": 1 },
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "common.schema.json#/$defs/telemetrySample" }
+      }
+    }
+  }
+}

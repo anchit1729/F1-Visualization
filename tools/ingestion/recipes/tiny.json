@@ -1,0 +1,24 @@
+{
+  "provider": "filesystem",
+  "fixture": "../fixtures/raw/tiny",
+  "cache": "../data/raw/tiny-cache",
+  "output": "../data/output/tiny/provider-snapshot.json",
+  "timingOutput": "../data/output/tiny/timing-report.json",
+  "geometryOutput": "../data/output/tiny/geometry-report.json",
+  "geometryDiagnosticOutput": "../data/output/tiny/geometry-diagnostic.svg",
+  "telemetryOutput": "../data/output/tiny/telemetry-report.json",
+  "artifact": {
+    "root": "../../../apps/replay/public/replays/v1",
+    "id": "tiny-demo",
+    "title": "Tiny Grand Prix",
+    "subtitle": "Race · deterministic fixture",
+    "replayScope": "race",
+    "chunkDurationMs": 5000,
+    "maxTotalBytes": 100000,
+    "maxInitialBytes": 50000,
+    "transformationVersion": "ingestion-v1",
+    "sourceUrl": "https://f1-replay.local/fixtures/tiny",
+    "retrievedAtUtc": "2024-01-01T12:00:00Z",
+    "budgetOutput": "../data/output/tiny/budget-report.json"
+  }
+}

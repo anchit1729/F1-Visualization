@@ -1,0 +1,9 @@
+[project]
+name = "f1-replay-ingestion"
+version = "0.1.0"
+description = "Offline-first ingestion tools for F1 replay artifacts"
+requires-python = ">=3.10"
+dependencies = ["jsonschema>=4.18,<5"]
+
+[project.scripts]
+f1-replay = "f1_replay.cli:main"

@@ -1,0 +1,11 @@
+node_modules
+.expo
+dist
+coverage
+.cache
+expo-env.d.ts
+package-lock.json
+tools/ingestion/data
+apps/replay/public/replays
+apps/replay/ios
+apps/replay/android

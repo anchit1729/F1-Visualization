@@ -1,0 +1,8 @@
+{
+  "name": "@f1/test-fixtures",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./*": "./*"
+  }
+}

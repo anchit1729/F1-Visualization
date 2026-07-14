@@ -1,0 +1,24 @@
+{
+  "provider": "openf1",
+  "year": 2023,
+  "meeting": "Belgium",
+  "sessionType": "Sprint",
+  "cache": "../data/raw/openf1",
+  "output": "../data/output/openf1-belgium-sprint-2023/provider-snapshot.json",
+  "timingOutput": "../data/output/openf1-belgium-sprint-2023/timing-report.json",
+  "geometryOutput": "../data/output/openf1-belgium-sprint-2023/geometry-report.json",
+  "geometryDiagnosticOutput": "../data/output/openf1-belgium-sprint-2023/geometry-diagnostic.svg",
+  "telemetryOutput": "../data/output/openf1-belgium-sprint-2023/telemetry-report.json",
+  "artifact": {
+    "root": "../../../apps/replay/public/replays/v1",
+    "id": "2023-belgium-sprint",
+    "title": "2023 Belgian Grand Prix Sprint",
+    "subtitle": "Spa-Francorchamps · Sprint",
+    "replayScope": "race",
+    "chunkDurationMs": 30000,
+    "maxTotalBytes": 150000000,
+    "maxInitialBytes": 5000000,
+    "transformationVersion": "ingestion-v1",
+    "budgetOutput": "../data/output/openf1-belgium-sprint-2023/budget-report.json"
+  }
+}

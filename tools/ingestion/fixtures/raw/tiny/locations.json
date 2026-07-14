@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2024-01-01T12:00:00Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:01Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 25,
+    "y": -5,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:02Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 50,
+    "y": 0,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:03Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 65,
+    "y": 20,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:04Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 60,
+    "y": 45,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:05Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 35,
+    "y": 60,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:06Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 10,
+    "y": 55,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:07Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": -10,
+    "y": 35,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:08Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": -5,
+    "y": 15,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:09Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": -2,
+    "y": 5,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:10Z",
+    "driver_number": 4,
+    "session_key": 10,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:00.500Z",
+    "driver_number": 5,
+    "session_key": 10,
+    "x": 12,
+    "y": -2,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:05.500Z",
+    "driver_number": 5,
+    "session_key": 10,
+    "x": 22,
+    "y": 58,
+    "z": 0
+  },
+  {
+    "date": "2024-01-01T12:00:09.500Z",
+    "driver_number": 5,
+    "session_key": 10,
+    "x": -1,
+    "y": 2,
+    "z": 0
+  }
+]

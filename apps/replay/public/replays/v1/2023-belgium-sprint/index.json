@@ -1,0 +1,4190 @@
+{
+  "chunks": [
+    {
+      "byteSize": 1021078,
+      "endMs": 2760000,
+      "sha256": "cb013dc2dc414afe5eee2fee079abe677dee0171b069136a0ea2baf87dee11e5",
+      "startMs": 2730000,
+      "url": "chunks/00000.json"
+    },
+    {
+      "byteSize": 992354,
+      "endMs": 2790000,
+      "sha256": "f785952e48e5227c7a6a298c569c32a0a16685de9d734ab0b9a32176c98017cf",
+      "startMs": 2760000,
+      "url": "chunks/00001.json"
+    },
+    {
+      "byteSize": 971434,
+      "endMs": 2820000,
+      "sha256": "80e58e5292973d138ced6f0d197db43db16452efd4d0229f3765cc618daa1b87",
+      "startMs": 2790000,
+      "url": "chunks/00002.json"
+    },
+    {
+      "byteSize": 978864,
+      "endMs": 2850000,
+      "sha256": "ad9de742c3d019e4d611fa10c8b563e83c591d9d5df56d9181da044e5b0d89b3",
+      "startMs": 2820000,
+      "url": "chunks/00003.json"
+    },
+    {
+      "byteSize": 977586,
+      "endMs": 2880000,
+      "sha256": "77f6694eeb7ad6eb27d820f8fe5a4c26308be9e8c61767aa0b84284b73a519b8",
+      "startMs": 2850000,
+      "url": "chunks/00004.json"
+    },
+    {
+      "byteSize": 955050,
+      "endMs": 2910000,
+      "sha256": "7112c0faea534bc0a8ffd6aae6cb64c16d0566e25386d46302d44fb1fb692200",
+      "startMs": 2880000,
+      "url": "chunks/00005.json"
+    },
+    {
+      "byteSize": 973390,
+      "endMs": 2940000,
+      "sha256": "5341ddb542dbc12bec8fc4fcc1b5b937b33f3851a04e33e8af9b21540ad17b06",
+      "startMs": 2910000,
+      "url": "chunks/00006.json"
+    },
+    {
+      "byteSize": 997947,
+      "endMs": 2970000,
+      "sha256": "3104afcbce5a83d86b0c8032bcd34ef5a0552644f9e03a30cf00c6f877688f20",
+      "startMs": 2940000,
+      "url": "chunks/00007.json"
+    },
+    {
+      "byteSize": 969800,
+      "endMs": 3000000,
+      "sha256": "c92700ed88008c50f43a1c85bbbec7af7b735d32e3ceab108594ca4aecbab5a7",
+      "startMs": 2970000,
+      "url": "chunks/00008.json"
+    },
+    {
+      "byteSize": 970951,
+      "endMs": 3030000,
+      "sha256": "31caa5b75800ec7671c11c8ec3c905641a4a996fc7365eaa8c0c673b24d86e7f",
+      "startMs": 3000000,
+      "url": "chunks/00009.json"
+    },
+    {
+      "byteSize": 986510,
+      "endMs": 3060000,
+      "sha256": "92a87d7962d502fcb7960d3adcaff6cdd734610f6bc6a116f7e4f0d4ba9d9120",
+      "startMs": 3030000,
+      "url": "chunks/00010.json"
+    },
+    {
+      "byteSize": 941857,
+      "endMs": 3090000,
+      "sha256": "bb8d9773e4bf8f4d20c58d12ebb4e57951acef3ad172c3822d8aa1b26b420641",
+      "startMs": 3060000,
+      "url": "chunks/00011.json"
+    },
+    {
+      "byteSize": 971755,
+      "endMs": 3120000,
+      "sha256": "fc3a82d038f0eb1b4b235cb7049a482510cd645c3ea0fbf9250b26958edb1c72",
+      "startMs": 3090000,
+      "url": "chunks/00012.json"
+    },
+    {
+      "byteSize": 955330,
+      "endMs": 3150000,
+      "sha256": "0bfce2d595eeb21ac828f57521640ccac272b8a72218d38ca9a70ecf84c1bc9d",
+      "startMs": 3120000,
+      "url": "chunks/00013.json"
+    },
+    {
+      "byteSize": 1004817,
+      "endMs": 3180000,
+      "sha256": "a7b04e69802ebd516f2758405c3bd6b4416f0316d3cccf623f07f9cb02fc360f",
+      "startMs": 3150000,
+      "url": "chunks/00014.json"
+    },
+    {
+      "byteSize": 968207,
+      "endMs": 3210000,
+      "sha256": "e533daff30f805fb1b05e0349e18506d5c2e4e0f16ee245f0d9f0ae1c0878234",
+      "startMs": 3180000,
+      "url": "chunks/00015.json"
+    },
+    {
+      "byteSize": 969337,
+      "endMs": 3240000,
+      "sha256": "4d9961b304afc7ccf9cdd9d2550ba9d9f3713682b7d32676d63ff09402727102",
+      "startMs": 3210000,
+      "url": "chunks/00016.json"
+    },
+    {
+      "byteSize": 942652,
+      "endMs": 3270000,
+      "sha256": "5b35038e817b74c16463e4c74442a48f846cf1c2715fc89550ee7e4a5c7a439d",
+      "startMs": 3240000,
+      "url": "chunks/00017.json"
+    },
+    {
+      "byteSize": 981993,
+      "endMs": 3300000,
+      "sha256": "455fc50cec6950fa026c64acf85dacfe47c96e6d67bf7073cffe62b275fd67e4",
+      "startMs": 3270000,
+      "url": "chunks/00018.json"
+    },
+    {
+      "byteSize": 991352,
+      "endMs": 3330000,
+      "sha256": "f3718c96023b51945d19bfebc332793251820bba62f03011bf28fc4928612178",
+      "startMs": 3300000,
+      "url": "chunks/00019.json"
+    },
+    {
+      "byteSize": 944676,
+      "endMs": 3360000,
+      "sha256": "edb62f7b40bee7339c928e4a4c9504172f1414fa6ef84eb24406835e0f961977",
+      "startMs": 3330000,
+      "url": "chunks/00020.json"
+    },
+    {
+      "byteSize": 985551,
+      "endMs": 3390000,
+      "sha256": "3d98a6d01b89fa0872c5116229fa7d22814fb638ddeba460cae79d8261218f64",
+      "startMs": 3360000,
+      "url": "chunks/00021.json"
+    },
+    {
+      "byteSize": 949632,
+      "endMs": 3420000,
+      "sha256": "4ef529912820062627106f47eb484bf18cab86a795640c47a1a0d1a06ad3872e",
+      "startMs": 3390000,
+      "url": "chunks/00022.json"
+    },
+    {
+      "byteSize": 976464,
+      "endMs": 3450000,
+      "sha256": "72fdb7be6a33d7cd7aca4277079d28327e292d1a280f49dc8fdf4c1030bc69c2",
+      "startMs": 3420000,
+      "url": "chunks/00023.json"
+    },
+    {
+      "byteSize": 940316,
+      "endMs": 3480000,
+      "sha256": "d2bc4c92f1d27c68712f7a0615a58ebe6a53b26af050d182079f640eebe6e704",
+      "startMs": 3450000,
+      "url": "chunks/00024.json"
+    },
+    {
+      "byteSize": 933067,
+      "endMs": 3510000,
+      "sha256": "b9edb24883fee2b7e947e5d9bce83a0e1a776487b59ad8013c883690cd93458e",
+      "startMs": 3480000,
+      "url": "chunks/00025.json"
+    },
+    {
+      "byteSize": 996176,
+      "endMs": 3540000,
+      "sha256": "f70d28371f9de37c83b9daabe42fd75f0cadd9c5cbf1bb9a4da1e8b08395e25f",
+      "startMs": 3510000,
+      "url": "chunks/00026.json"
+    },
+    {
+      "byteSize": 972615,
+      "endMs": 3570000,
+      "sha256": "5d0b4847cbb56cb00020d21e027992b4c172a04dbd6ee42a372c4bb3d34f012a",
+      "startMs": 3540000,
+      "url": "chunks/00027.json"
+    },
+    {
+      "byteSize": 963090,
+      "endMs": 3600000,
+      "sha256": "2b6badddc9e6cb0cde78d64e0f67640b35baf9f8e52cdfd7363a888f4258a0c8",
+      "startMs": 3570000,
+      "url": "chunks/00028.json"
+    },
+    {
+      "byteSize": 1020703,
+      "endMs": 3630000,
+      "sha256": "b8764558b5b7454da14ea81526960a2ecf20eb3ade584ffe48804cff8f492cec",
+      "startMs": 3600000,
+      "url": "chunks/00029.json"
+    },
+    {
+      "byteSize": 980663,
+      "endMs": 3660000,
+      "sha256": "bba95a2511af4f2f05ebc3be2ca91ff70261ba3bb5d5751bd517ded10309d3d7",
+      "startMs": 3630000,
+      "url": "chunks/00030.json"
+    },
+    {
+      "byteSize": 947871,
+      "endMs": 3690000,
+      "sha256": "988a06ffb56442d5e9194db87cdcdf5a7c260e91245c0b57207bc70ae63aa878",
+      "startMs": 3660000,
+      "url": "chunks/00031.json"
+    },
+    {
+      "byteSize": 1005513,
+      "endMs": 3720000,
+      "sha256": "967fa57fcf3899ce0bea4bf587c4d190212f6896dd813fc16c3b34d0c07b196c",
+      "startMs": 3690000,
+      "url": "chunks/00032.json"
+    },
+    {
+      "byteSize": 934810,
+      "endMs": 3750000,
+      "sha256": "3c8fca42b75f3da19aad0a6156676cd2f76373f204f2a9a9ea6911c8d59cc000",
+      "startMs": 3720000,
+      "url": "chunks/00033.json"
+    },
+    {
+      "byteSize": 1027444,
+      "endMs": 3780000,
+      "sha256": "7785e8b2524854240798a0a0ce963782c231cff7cd68aba8fce09ca8d1a74b2c",
+      "startMs": 3750000,
+      "url": "chunks/00034.json"
+    },
+    {
+      "byteSize": 993894,
+      "endMs": 3810000,
+      "sha256": "fa1697cd683244f40726e4ff290bb3ebb55080e72481c14d2913f24fbf5f791e",
+      "startMs": 3780000,
+      "url": "chunks/00035.json"
+    },
+    {
+      "byteSize": 987254,
+      "endMs": 3840000,
+      "sha256": "9673ebde909798db33c08842e93f947c40271d97edad42bdfbcfdf7263c31b17",
+      "startMs": 3810000,
+      "url": "chunks/00036.json"
+    },
+    {
+      "byteSize": 976482,
+      "endMs": 3870000,
+      "sha256": "eeac399006537530d5ed5fb3bc76364428994381280ba9632b7bc59eed0b397e",
+      "startMs": 3840000,
+      "url": "chunks/00037.json"
+    },
+    {
+      "byteSize": 942599,
+      "endMs": 3900000,
+      "sha256": "69d440a8907befd5d755dffef1078a715b21685dba80a3f4fb0baf1971b57724",
+      "startMs": 3870000,
+      "url": "chunks/00038.json"
+    },
+    {
+      "byteSize": 962070,
+      "endMs": 3930000,
+      "sha256": "8d69c33f9db81db0c6367d686d90b204775cc82d7aa1dca86d2e51d9ca571e7b",
+      "startMs": 3900000,
+      "url": "chunks/00039.json"
+    },
+    {
+      "byteSize": 955574,
+      "endMs": 3960000,
+      "sha256": "7d7fdce88fbce83e57e5ddbc83599decc01587f5d6832309821dc80dd0ecc532",
+      "startMs": 3930000,
+      "url": "chunks/00040.json"
+    },
+    {
+      "byteSize": 934789,
+      "endMs": 3990000,
+      "sha256": "1defcb37ac670c0bbbeb7ee69b6e5b57336aba8e2d7bd8dc85672c6a6269c8c0",
+      "startMs": 3960000,
+      "url": "chunks/00041.json"
+    },
+    {
+      "byteSize": 950197,
+      "endMs": 4020000,
+      "sha256": "4ed73205e0dda148364aee7bc5988883913ae9a884a6c55aaa59a78ef2f3950f",
+      "startMs": 3990000,
+      "url": "chunks/00042.json"
+    },
+    {
+      "byteSize": 949655,
+      "endMs": 4050000,
+      "sha256": "dada3497d58c706515f098215a17e6ca0d611c1704c55af0bb1848ec8ce13659",
+      "startMs": 4020000,
+      "url": "chunks/00043.json"
+    },
+    {
+      "byteSize": 969758,
+      "endMs": 4080000,
+      "sha256": "0b24fdf7019cb0b61b149867f5610e4239810d8f4cb8d865c56cc7c28c7baa31",
+      "startMs": 4050000,
+      "url": "chunks/00044.json"
+    },
+    {
+      "byteSize": 987366,
+      "endMs": 4110000,
+      "sha256": "707faa115a09bb2a623285eb50bd31e416bd20c5aba0520ef308f9a5d11cc84b",
+      "startMs": 4080000,
+      "url": "chunks/00045.json"
+    },
+    {
+      "byteSize": 975924,
+      "endMs": 4140000,
+      "sha256": "9cd4cf5fd91dedb925153cfcbfc419f585a24f0cd4943a70f70fc5ccd6308fd5",
+      "startMs": 4110000,
+      "url": "chunks/00046.json"
+    },
+    {
+      "byteSize": 950365,
+      "endMs": 4170000,
+      "sha256": "b6d60ce475ced20a2c5fba566ec0e585ffdb994987180cc2f64a1054f7f52130",
+      "startMs": 4140000,
+      "url": "chunks/00047.json"
+    },
+    {
+      "byteSize": 987385,
+      "endMs": 4200000,
+      "sha256": "7fb2e7ac7718b285424eb0c07e8da5fb5d30c1904a50735bc73c5cd35fd9b593",
+      "startMs": 4170000,
+      "url": "chunks/00048.json"
+    },
+    {
+      "byteSize": 973897,
+      "endMs": 4230000,
+      "sha256": "0753b94f8efdf77300bc24491d145813eab97ebcbc580a76ce7ddaf075521567",
+      "startMs": 4200000,
+      "url": "chunks/00049.json"
+    },
+    {
+      "byteSize": 976660,
+      "endMs": 4260000,
+      "sha256": "4e2104ad8bff12f2339120981020cf9c95dfef3778cb85e35a519fe31f037875",
+      "startMs": 4230000,
+      "url": "chunks/00050.json"
+    },
+    {
+      "byteSize": 949914,
+      "endMs": 4290000,
+      "sha256": "064da0739485a9df5f5933e6027221dace3733a70f73dc1afc65fb0e810c0182",
+      "startMs": 4260000,
+      "url": "chunks/00051.json"
+    },
+    {
+      "byteSize": 959223,
+      "endMs": 4320000,
+      "sha256": "7531b6803f684abaea92fdec1217961f643fb54e26de22e08e2aad82bc8b2647",
+      "startMs": 4290000,
+      "url": "chunks/00052.json"
+    },
+    {
+      "byteSize": 978373,
+      "endMs": 4350000,
+      "sha256": "aabc307c0917d3188de44577a8e3f734d86259dd6b847193ff72356c2c8ac078",
+      "startMs": 4320000,
+      "url": "chunks/00053.json"
+    },
+    {
+      "byteSize": 959969,
+      "endMs": 4380000,
+      "sha256": "36db639ad9ca72798c5c216804135c6c0d901922685ede09b0ceeba61494d346",
+      "startMs": 4350000,
+      "url": "chunks/00054.json"
+    },
+    {
+      "byteSize": 942822,
+      "endMs": 4410000,
+      "sha256": "01a63f9dd7b981d5da754449a319216f0728eaafeab155f8a2160c581ed98d59",
+      "startMs": 4380000,
+      "url": "chunks/00055.json"
+    },
+    {
+      "byteSize": 972726,
+      "endMs": 4440000,
+      "sha256": "3184d86257b42a13d8b00153dde0b7c5f33d52e9a2c6db21bdd27532689b83f0",
+      "startMs": 4410000,
+      "url": "chunks/00056.json"
+    },
+    {
+      "byteSize": 821223,
+      "endMs": 4466121,
+      "sha256": "59695cab691082f532414b8b1329a0e8cd3dc1fe156d918bdb0029d560c26755",
+      "startMs": 4440000,
+      "url": "chunks/00057.json"
+    }
+  ],
+  "dataQuality": {
+    "derivedGForce": "estimated",
+    "excludedLocationSamplePercentage": 37.795,
+    "warnings": [
+      "Driver 11 lap 9: incomplete sector timing",
+      "Driver 11 lap 9: missing duration; interval bounded by source time",
+      "Driver 14 lap 3: incomplete sector timing",
+      "Driver 14 lap 3: missing duration; interval bounded by source time",
+      "Driver 3: excluded 1 large location jumps",
+      "Driver 44: excluded 1 large location jumps",
+      "Driver 55: excluded 1 large location jumps",
+      "Driver 63: excluded 1 large location jumps",
+      "Driver 81: excluded 2 large location jumps",
+      "Lap source rows were out of order and have been sorted",
+      "Session end expanded beyond scheduled date_end to include late source data",
+      "driver-10: clipped 13 derived g-force samples",
+      "driver-11: clipped 10 derived g-force samples",
+      "driver-14: clipped 14 derived g-force samples",
+      "driver-16: clipped 15 derived g-force samples",
+      "driver-18: clipped 9 derived g-force samples",
+      "driver-1: clipped 11 derived g-force samples",
+      "driver-20: clipped 17 derived g-force samples",
+      "driver-22: clipped 7 derived g-force samples",
+      "driver-23: clipped 15 derived g-force samples",
+      "driver-24: clipped 15 derived g-force samples",
+      "driver-27: clipped 13 derived g-force samples",
+      "driver-2: clipped 4 derived g-force samples",
+      "driver-31: clipped 9 derived g-force samples",
+      "driver-3: clipped 19 derived g-force samples",
+      "driver-44: clipped 3 derived g-force samples",
+      "driver-4: clipped 23 derived g-force samples",
+      "driver-55: clipped 19 derived g-force samples",
+      "driver-63: clipped 13 derived g-force samples",
+      "driver-77: clipped 10 derived g-force samples",
+      "driver-81: clipped 17 derived g-force samples"
+    ]
+  },
+  "drivers": [
+    {
+      "code": "VER",
+      "driverNumber": 1,
+      "id": "driver-1",
+      "name": "Max VERSTAPPEN",
+      "teamColor": "#3671C6",
+      "teamName": "Red Bull Racing"
+    },
+    {
+      "code": "SAR",
+      "driverNumber": 2,
+      "id": "driver-2",
+      "name": "Logan SARGEANT",
+      "teamColor": "#37BEDD",
+      "teamName": "Williams"
+    },
+    {
+      "code": "RIC",
+      "driverNumber": 3,
+      "id": "driver-3",
+      "name": "Daniel RICCIARDO",
+      "teamColor": "#5E8FAA",
+      "teamName": "AlphaTauri"
+    },
+    {
+      "code": "NOR",
+      "driverNumber": 4,
+      "id": "driver-4",
+      "name": "Lando NORRIS",
+      "teamColor": "#F58020",
+      "teamName": "McLaren"
+    },
+    {
+      "code": "GAS",
+      "driverNumber": 10,
+      "id": "driver-10",
+      "name": "Pierre GASLY",
+      "teamColor": "#2293D1",
+      "teamName": "Alpine"
+    },
+    {
+      "code": "PER",
+      "driverNumber": 11,
+      "id": "driver-11",
+      "name": "Sergio PEREZ",
+      "teamColor": "#3671C6",
+      "teamName": "Red Bull Racing"
+    },
+    {
+      "code": "ALO",
+      "driverNumber": 14,
+      "id": "driver-14",
+      "name": "Fernando ALONSO",
+      "teamColor": "#358C75",
+      "teamName": "Aston Martin"
+    },
+    {
+      "code": "LEC",
+      "driverNumber": 16,
+      "id": "driver-16",
+      "name": "Charles LECLERC",
+      "teamColor": "#F91536",
+      "teamName": "Ferrari"
+    },
+    {
+      "code": "STR",
+      "driverNumber": 18,
+      "id": "driver-18",
+      "name": "Lance STROLL",
+      "teamColor": "#358C75",
+      "teamName": "Aston Martin"
+    },
+    {
+      "code": "MAG",
+      "driverNumber": 20,
+      "id": "driver-20",
+      "name": "Kevin MAGNUSSEN",
+      "teamColor": "#B6BABD",
+      "teamName": "Haas F1 Team"
+    },
+    {
+      "code": "TSU",
+      "driverNumber": 22,
+      "id": "driver-22",
+      "name": "Yuki TSUNODA",
+      "teamColor": "#5E8FAA",
+      "teamName": "AlphaTauri"
+    },
+    {
+      "code": "ALB",
+      "driverNumber": 23,
+      "id": "driver-23",
+      "name": "Alexander ALBON",
+      "teamColor": "#37BEDD",
+      "teamName": "Williams"
+    },
+    {
+      "code": "ZHO",
+      "driverNumber": 24,
+      "id": "driver-24",
+      "name": "ZHOU Guanyu",
+      "teamColor": "#C92D4B",
+      "teamName": "Alfa Romeo"
+    },
+    {
+      "code": "HUL",
+      "driverNumber": 27,
+      "id": "driver-27",
+      "name": "Nico HULKENBERG",
+      "teamColor": "#B6BABD",
+      "teamName": "Haas F1 Team"
+    },
+    {
+      "code": "OCO",
+      "driverNumber": 31,
+      "id": "driver-31",
+      "name": "Esteban OCON",
+      "teamColor": "#2293D1",
+      "teamName": "Alpine"
+    },
+    {
+      "code": "HAM",
+      "driverNumber": 44,
+      "id": "driver-44",
+      "name": "Lewis HAMILTON",
+      "teamColor": "#6CD3BF",
+      "teamName": "Mercedes"
+    },
+    {
+      "code": "SAI",
+      "driverNumber": 55,
+      "id": "driver-55",
+      "name": "Carlos SAINZ",
+      "teamColor": "#F91536",
+      "teamName": "Ferrari"
+    },
+    {
+      "code": "RUS",
+      "driverNumber": 63,
+      "id": "driver-63",
+      "name": "George RUSSELL",
+      "teamColor": "#6CD3BF",
+      "teamName": "Mercedes"
+    },
+    {
+      "code": "BOT",
+      "driverNumber": 77,
+      "id": "driver-77",
+      "name": "Valtteri BOTTAS",
+      "teamColor": "#C92D4B",
+      "teamName": "Alfa Romeo"
+    },
+    {
+      "code": "PIA",
+      "driverNumber": 81,
+      "id": "driver-81",
+      "name": "Oscar PIASTRI",
+      "teamColor": "#F58020",
+      "teamName": "McLaren"
+    }
+  ],
+  "id": "2023-belgium-sprint",
+  "laps": [
+    {
+      "driverId": "driver-1",
+      "durationMs": 135265,
+      "endMs": 2873078,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        39911,
+        57746,
+        37608
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 134962,
+      "endMs": 3008039,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        48579,
+        54546,
+        31837
+      ],
+      "startMs": 2873077
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 125110,
+      "endMs": 3132935,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33127,
+        55370,
+        36613
+      ],
+      "startMs": 3007825
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 184678,
+      "endMs": 3317674,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        50042,
+        86110,
+        48526
+      ],
+      "startMs": 3132996
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 193857,
+      "endMs": 3511554,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        49146,
+        83886,
+        60825
+      ],
+      "startMs": 3317697
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 118943,
+      "endMs": 3630450,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33167,
+        53887,
+        31889
+      ],
+      "startMs": 3511507
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 120363,
+      "endMs": 3750791,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33503,
+        54865,
+        31995
+      ],
+      "startMs": 3630428
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 121417,
+      "endMs": 3872265,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33745,
+        55612,
+        32060
+      ],
+      "startMs": 3750848
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 121588,
+      "endMs": 3993872,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33754,
+        55859,
+        31975
+      ],
+      "startMs": 3872284
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 121128,
+      "endMs": 4114989,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33661,
+        55460,
+        32007
+      ],
+      "startMs": 3993861
+    },
+    {
+      "driverId": "driver-1",
+      "durationMs": 121624,
+      "endMs": 4236578,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33745,
+        55401,
+        32478
+      ],
+      "startMs": 4114954
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 147890,
+      "endMs": 2885703,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        48925,
+        60966,
+        37999
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 140889,
+      "endMs": 3026591,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        49959,
+        58599,
+        32331
+      ],
+      "startMs": 2885702
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 141795,
+      "endMs": 3168433,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        34050,
+        58465,
+        49280
+      ],
+      "startMs": 3026638
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 169086,
+      "endMs": 3337394,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        44061,
+        75826,
+        49199
+      ],
+      "startMs": 3168308
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 183030,
+      "endMs": 3520852,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48183,
+        78877,
+        55970
+      ],
+      "startMs": 3337822
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 123482,
+      "endMs": 3644052,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33523,
+        57575,
+        32384
+      ],
+      "startMs": 3520570
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 124814,
+      "endMs": 3768835,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33123,
+        58908,
+        32783
+      ],
+      "startMs": 3644021
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 124709,
+      "endMs": 3893448,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33173,
+        58927,
+        32609
+      ],
+      "startMs": 3768739
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 124756,
+      "endMs": 4018196,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33199,
+        58957,
+        32600
+      ],
+      "startMs": 3893440
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 125133,
+      "endMs": 4143447,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33224,
+        59311,
+        32598
+      ],
+      "startMs": 4018314
+    },
+    {
+      "driverId": "driver-2",
+      "durationMs": 125715,
+      "endMs": 4269168,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33275,
+        59777,
+        32663
+      ],
+      "startMs": 4143453
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 158452,
+      "endMs": 2896265,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        68719,
+        57430,
+        32303
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 123920,
+      "endMs": 3020184,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        34585,
+        57272,
+        32063
+      ],
+      "startMs": 2896264
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 137023,
+      "endMs": 3157114,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33826,
+        57195,
+        46002
+      ],
+      "startMs": 3020091
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 170651,
+      "endMs": 3327865,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        42721,
+        77214,
+        50716
+      ],
+      "startMs": 3157214
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 187345,
+      "endMs": 3515214,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        47877,
+        81724,
+        57744
+      ],
+      "startMs": 3327869
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 123104,
+      "endMs": 3638424,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34020,
+        57051,
+        32033
+      ],
+      "startMs": 3515320
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 123819,
+      "endMs": 3762137,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33327,
+        58564,
+        31928
+      ],
+      "startMs": 3638318
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 122967,
+      "endMs": 3884987,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33185,
+        57558,
+        32224
+      ],
+      "startMs": 3762020
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 123920,
+      "endMs": 4009048,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33315,
+        57825,
+        32780
+      ],
+      "startMs": 3885128
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 124611,
+      "endMs": 4133753,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33819,
+        58432,
+        32360
+      ],
+      "startMs": 4009142
+    },
+    {
+      "driverId": "driver-3",
+      "durationMs": 125761,
+      "endMs": 4259355,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33548,
+        58317,
+        33896
+      ],
+      "startMs": 4133594
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 141280,
+      "endMs": 2879093,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        43938,
+        59483,
+        37859
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 140222,
+      "endMs": 3019314,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        51410,
+        56199,
+        32613
+      ],
+      "startMs": 2879092
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 135222,
+      "endMs": 3154516,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33815,
+        55455,
+        45952
+      ],
+      "startMs": 3019294
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 172217,
+      "endMs": 3326759,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        42875,
+        77562,
+        51780
+      ],
+      "startMs": 3154542
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 188111,
+      "endMs": 3514870,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48222,
+        81032,
+        58857
+      ],
+      "startMs": 3326759
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 122628,
+      "endMs": 3637494,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33726,
+        56332,
+        32570
+      ],
+      "startMs": 3514866
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 123684,
+      "endMs": 3761174,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33702,
+        58108,
+        31874
+      ],
+      "startMs": 3637490
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 122085,
+      "endMs": 3883214,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33726,
+        56135,
+        32224
+      ],
+      "startMs": 3761129
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 122899,
+      "endMs": 4006152,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33571,
+        57056,
+        32272
+      ],
+      "startMs": 3883253
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 123496,
+      "endMs": 4129607,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        34013,
+        57162,
+        32321
+      ],
+      "startMs": 4006111
+    },
+    {
+      "driverId": "driver-4",
+      "durationMs": 122990,
+      "endMs": 4252647,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33948,
+        56694,
+        32348
+      ],
+      "startMs": 4129657
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 151499,
+      "endMs": 2889312,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        62226,
+        56892,
+        32381
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122655,
+      "endMs": 3011966,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33762,
+        56623,
+        32270
+      ],
+      "startMs": 2889311
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 130078,
+      "endMs": 3142028,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33319,
+        56962,
+        39797
+      ],
+      "startMs": 3011950
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 177626,
+      "endMs": 3319747,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        44458,
+        83327,
+        49841
+      ],
+      "startMs": 3142121
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 192614,
+      "endMs": 3512420,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48882,
+        82989,
+        60743
+      ],
+      "startMs": 3319806
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 121857,
+      "endMs": 3634255,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33228,
+        56668,
+        31961
+      ],
+      "startMs": 3512398
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122237,
+      "endMs": 3756462,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33142,
+        56898,
+        32197
+      ],
+      "startMs": 3634225
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122564,
+      "endMs": 3879037,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33301,
+        57053,
+        32210
+      ],
+      "startMs": 3756473
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122805,
+      "endMs": 4001839,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33239,
+        57096,
+        32470
+      ],
+      "startMs": 3879034
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122825,
+      "endMs": 4124608,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33478,
+        57020,
+        32327
+      ],
+      "startMs": 4001783
+    },
+    {
+      "driverId": "driver-10",
+      "durationMs": 122661,
+      "endMs": 4247302,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33531,
+        56858,
+        32272
+      ],
+      "startMs": 4124641
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 152218,
+      "endMs": 2890031,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        63808,
+        56081,
+        32329
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 122516,
+      "endMs": 3012546,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33709,
+        56531,
+        32276
+      ],
+      "startMs": 2890030
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 131672,
+      "endMs": 3144200,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33565,
+        56921,
+        41186
+      ],
+      "startMs": 3012528
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 176209,
+      "endMs": 3320548,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        44184,
+        82592,
+        49433
+      ],
+      "startMs": 3144339
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 192212,
+      "endMs": 3512768,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        49337,
+        82732,
+        60143
+      ],
+      "startMs": 3320556
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 123393,
+      "endMs": 3636150,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33453,
+        56719,
+        33221
+      ],
+      "startMs": 3512757
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 133282,
+      "endMs": 3769428,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        34069,
+        64311,
+        34902
+      ],
+      "startMs": 3636146
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": 133293,
+      "endMs": 3902672,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33779,
+        59394,
+        40120
+      ],
+      "startMs": 3769379
+    },
+    {
+      "driverId": "driver-11",
+      "durationMs": null,
+      "endMs": 4466121,
+      "isPitOutLap": false,
+      "isValid": false,
+      "lapNumber": 9,
+      "sectorsMs": [
+        null,
+        null,
+        null
+      ],
+      "startMs": 3902784
+    },
+    {
+      "driverId": "driver-14",
+      "durationMs": 148561,
+      "endMs": 2886374,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        50055,
+        60249,
+        38257
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-14",
+      "durationMs": 139843,
+      "endMs": 3026216,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        48321,
+        58544,
+        32978
+      ],
+      "startMs": 2886373
+    },
+    {
+      "driverId": "driver-14",
+      "durationMs": null,
+      "endMs": 4466121,
+      "isPitOutLap": false,
+      "isValid": false,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33952,
+        null,
+        null
+      ],
+      "startMs": 3026169
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 139233,
+      "endMs": 2877046,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        42340,
+        59138,
+        37755
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 140531,
+      "endMs": 3017576,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        51171,
+        56869,
+        32491
+      ],
+      "startMs": 2877045
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 134881,
+      "endMs": 3152456,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33439,
+        56458,
+        44984
+      ],
+      "startMs": 3017575
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 172424,
+      "endMs": 3324919,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        41910,
+        79103,
+        51411
+      ],
+      "startMs": 3152495
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 189282,
+      "endMs": 3514151,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48149,
+        82169,
+        58964
+      ],
+      "startMs": 3324869
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 122970,
+      "endMs": 3637196,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33437,
+        56897,
+        32636
+      ],
+      "startMs": 3514226
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 122635,
+      "endMs": 3759828,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33036,
+        57199,
+        32400
+      ],
+      "startMs": 3637193
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 123004,
+      "endMs": 3882696,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33584,
+        57080,
+        32340
+      ],
+      "startMs": 3759692
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 122836,
+      "endMs": 4005652,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33406,
+        57105,
+        32325
+      ],
+      "startMs": 3882816
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 123006,
+      "endMs": 4128664,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33423,
+        57208,
+        32375
+      ],
+      "startMs": 4005658
+    },
+    {
+      "driverId": "driver-16",
+      "durationMs": 122952,
+      "endMs": 4251609,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33469,
+        57071,
+        32412
+      ],
+      "startMs": 4128657
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 159827,
+      "endMs": 2897640,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        69118,
+        58185,
+        32524
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 125084,
+      "endMs": 3022723,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        34110,
+        58243,
+        32731
+      ],
+      "startMs": 2897639
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 137598,
+      "endMs": 3160267,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33937,
+        57092,
+        46569
+      ],
+      "startMs": 3022669
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 169133,
+      "endMs": 3329441,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43543,
+        76560,
+        49030
+      ],
+      "startMs": 3160308
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 187627,
+      "endMs": 3517089,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        50622,
+        79372,
+        57633
+      ],
+      "startMs": 3329462
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 123356,
+      "endMs": 3640426,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34573,
+        56583,
+        32200
+      ],
+      "startMs": 3517070
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 124383,
+      "endMs": 3764873,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        34069,
+        57595,
+        32719
+      ],
+      "startMs": 3640490
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 124042,
+      "endMs": 3888843,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33983,
+        57313,
+        32746
+      ],
+      "startMs": 3764801
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 123939,
+      "endMs": 4012833,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33785,
+        57536,
+        32618
+      ],
+      "startMs": 3888894
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 124437,
+      "endMs": 4137235,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33883,
+        57822,
+        32732
+      ],
+      "startMs": 4012798
+    },
+    {
+      "driverId": "driver-18",
+      "durationMs": 124362,
+      "endMs": 4261597,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33818,
+        57694,
+        32850
+      ],
+      "startMs": 4137235
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 151827,
+      "endMs": 2889640,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        52004,
+        61413,
+        38410
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 139657,
+      "endMs": 3029296,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        48813,
+        58403,
+        32441
+      ],
+      "startMs": 2889639
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 143512,
+      "endMs": 3172837,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33960,
+        60739,
+        48813
+      ],
+      "startMs": 3029325
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 167844,
+      "endMs": 3340558,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        42646,
+        76818,
+        48380
+      ],
+      "startMs": 3172714
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 180206,
+      "endMs": 3520903,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48119,
+        77667,
+        54420
+      ],
+      "startMs": 3340697
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 123965,
+      "endMs": 3644785,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34038,
+        57569,
+        32358
+      ],
+      "startMs": 3520820
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 125062,
+      "endMs": 3769927,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33469,
+        58489,
+        33104
+      ],
+      "startMs": 3644865
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 124381,
+      "endMs": 3894260,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33313,
+        58495,
+        32573
+      ],
+      "startMs": 3769879
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 125110,
+      "endMs": 4019285,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33483,
+        58815,
+        32812
+      ],
+      "startMs": 3894175
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 125034,
+      "endMs": 4144442,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33629,
+        58825,
+        32580
+      ],
+      "startMs": 4019408
+    },
+    {
+      "driverId": "driver-20",
+      "durationMs": 125141,
+      "endMs": 4269579,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33386,
+        58941,
+        32814
+      ],
+      "startMs": 4144438
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 150874,
+      "endMs": 2888687,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        51319,
+        61558,
+        37997
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 139692,
+      "endMs": 3028378,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        48948,
+        58319,
+        32425
+      ],
+      "startMs": 2888686
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 143003,
+      "endMs": 3171437,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        34223,
+        59445,
+        49335
+      ],
+      "startMs": 3028434
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 167943,
+      "endMs": 3339251,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        42777,
+        76710,
+        48456
+      ],
+      "startMs": 3171308
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 190478,
+      "endMs": 3529831,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        47647,
+        78699,
+        64132
+      ],
+      "startMs": 3339353
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 122465,
+      "endMs": 3652300,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34069,
+        55890,
+        32506
+      ],
+      "startMs": 3529835
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 122080,
+      "endMs": 3774382,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33337,
+        56512,
+        32231
+      ],
+      "startMs": 3652302
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 123742,
+      "endMs": 3898106,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33514,
+        57811,
+        32417
+      ],
+      "startMs": 3774364
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 125138,
+      "endMs": 4023125,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33879,
+        58618,
+        32641
+      ],
+      "startMs": 3897987
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 125669,
+      "endMs": 4148905,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33882,
+        58802,
+        32985
+      ],
+      "startMs": 4023236
+    },
+    {
+      "driverId": "driver-22",
+      "durationMs": 126953,
+      "endMs": 4275859,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        34321,
+        59462,
+        33170
+      ],
+      "startMs": 4148906
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 161046,
+      "endMs": 2898859,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        69488,
+        59236,
+        32322
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 125307,
+      "endMs": 3024165,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33782,
+        59251,
+        32274
+      ],
+      "startMs": 2898858
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 140338,
+      "endMs": 3164444,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33396,
+        58508,
+        48434
+      ],
+      "startMs": 3024106
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 168131,
+      "endMs": 3332642,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43400,
+        76078,
+        48653
+      ],
+      "startMs": 3164511
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 185385,
+      "endMs": 3518066,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        49698,
+        79452,
+        56235
+      ],
+      "startMs": 3332681
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 123674,
+      "endMs": 3641697,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33555,
+        57970,
+        32149
+      ],
+      "startMs": 3518023
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 124403,
+      "endMs": 3766112,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33165,
+        58829,
+        32409
+      ],
+      "startMs": 3641709
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 124461,
+      "endMs": 3890450,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33467,
+        58733,
+        32261
+      ],
+      "startMs": 3765989
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 124444,
+      "endMs": 4015009,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33564,
+        58484,
+        32396
+      ],
+      "startMs": 3890565
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 123702,
+      "endMs": 4138766,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33515,
+        58173,
+        32014
+      ],
+      "startMs": 4015064
+    },
+    {
+      "driverId": "driver-23",
+      "durationMs": 124172,
+      "endMs": 4262891,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33496,
+        58287,
+        32389
+      ],
+      "startMs": 4138719
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 155030,
+      "endMs": 2892843,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        53610,
+        61885,
+        39535
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 142589,
+      "endMs": 3035431,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        51675,
+        58333,
+        32581
+      ],
+      "startMs": 2892842
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 139297,
+      "endMs": 3174763,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        34009,
+        61576,
+        43712
+      ],
+      "startMs": 3035466
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 169627,
+      "endMs": 3344341,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        47024,
+        77317,
+        45286
+      ],
+      "startMs": 3174714
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 176822,
+      "endMs": 3521190,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        45922,
+        76956,
+        53944
+      ],
+      "startMs": 3344368
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 124760,
+      "endMs": 3645908,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34555,
+        57873,
+        32332
+      ],
+      "startMs": 3521148
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 124860,
+      "endMs": 3770819,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33826,
+        58421,
+        32613
+      ],
+      "startMs": 3645959
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 125956,
+      "endMs": 3896773,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        34003,
+        58946,
+        33007
+      ],
+      "startMs": 3770817
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 125056,
+      "endMs": 4021762,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33680,
+        58744,
+        32632
+      ],
+      "startMs": 3896706
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 125874,
+      "endMs": 4147719,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33613,
+        59283,
+        32978
+      ],
+      "startMs": 4021845
+    },
+    {
+      "driverId": "driver-24",
+      "durationMs": 125195,
+      "endMs": 4272820,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33687,
+        58786,
+        32722
+      ],
+      "startMs": 4147625
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 162671,
+      "endMs": 2900484,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        72128,
+        57858,
+        32685
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 125178,
+      "endMs": 3025661,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        34301,
+        58024,
+        32853
+      ],
+      "startMs": 2900483
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 141685,
+      "endMs": 3167323,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33773,
+        58304,
+        49608
+      ],
+      "startMs": 3025638
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 169237,
+      "endMs": 3336623,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43962,
+        75806,
+        49469
+      ],
+      "startMs": 3167386
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 183262,
+      "endMs": 3519896,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48566,
+        78741,
+        55955
+      ],
+      "startMs": 3336634
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 123472,
+      "endMs": 3643354,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33497,
+        57608,
+        32367
+      ],
+      "startMs": 3519882
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 124666,
+      "endMs": 3768000,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33452,
+        58249,
+        32965
+      ],
+      "startMs": 3643334
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 127094,
+      "endMs": 3895005,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33534,
+        58555,
+        35005
+      ],
+      "startMs": 3767911
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 126425,
+      "endMs": 4021459,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33642,
+        59785,
+        32998
+      ],
+      "startMs": 3895034
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 126604,
+      "endMs": 4148121,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33554,
+        59214,
+        33836
+      ],
+      "startMs": 4021517
+    },
+    {
+      "driverId": "driver-27",
+      "durationMs": 126302,
+      "endMs": 4274474,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33975,
+        59213,
+        33114
+      ],
+      "startMs": 4148172
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 143952,
+      "endMs": 2881765,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        46107,
+        60026,
+        37819
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 139768,
+      "endMs": 3021532,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        49509,
+        57837,
+        32422
+      ],
+      "startMs": 2881764
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 137406,
+      "endMs": 3158934,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33558,
+        57340,
+        46508
+      ],
+      "startMs": 3021528
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 169680,
+      "endMs": 3328597,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43179,
+        76175,
+        50326
+      ],
+      "startMs": 3158917
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 187348,
+      "endMs": 3516013,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        49822,
+        79890,
+        57636
+      ],
+      "startMs": 3328665
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 123061,
+      "endMs": 3639037,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33539,
+        57099,
+        32423
+      ],
+      "startMs": 3515976
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 123938,
+      "endMs": 3762975,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33145,
+        58363,
+        32430
+      ],
+      "startMs": 3639037
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 123452,
+      "endMs": 3886331,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33065,
+        57486,
+        32901
+      ],
+      "startMs": 3762879
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 124197,
+      "endMs": 4010669,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33256,
+        58379,
+        32562
+      ],
+      "startMs": 3886472
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 123984,
+      "endMs": 4134579,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33362,
+        58009,
+        32613
+      ],
+      "startMs": 4010595
+    },
+    {
+      "driverId": "driver-31",
+      "durationMs": 124373,
+      "endMs": 4258967,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33377,
+        58015,
+        32981
+      ],
+      "startMs": 4134594
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 154374,
+      "endMs": 2892187,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        66121,
+        56209,
+        32044
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 121370,
+      "endMs": 3013556,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33408,
+        55868,
+        32094
+      ],
+      "startMs": 2892186
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 131418,
+      "endMs": 3144993,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33270,
+        56843,
+        41305
+      ],
+      "startMs": 3013575
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 177274,
+      "endMs": 3322395,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        46713,
+        79978,
+        50583
+      ],
+      "startMs": 3145121
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 190904,
+      "endMs": 3513226,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48451,
+        82504,
+        59949
+      ],
+      "startMs": 3322322
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 122930,
+      "endMs": 3636172,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33259,
+        56433,
+        33238
+      ],
+      "startMs": 3513242
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 120920,
+      "endMs": 3757207,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        32879,
+        55691,
+        32350
+      ],
+      "startMs": 3636287
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 122870,
+      "endMs": 3879859,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        32824,
+        57813,
+        32233
+      ],
+      "startMs": 3756989
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 122722,
+      "endMs": 4002678,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33216,
+        57178,
+        32328
+      ],
+      "startMs": 3879956
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 122793,
+      "endMs": 4125467,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33191,
+        57434,
+        32168
+      ],
+      "startMs": 4002674
+    },
+    {
+      "driverId": "driver-44",
+      "durationMs": 122837,
+      "endMs": 4248322,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33286,
+        57379,
+        32172
+      ],
+      "startMs": 4125485
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 155608,
+      "endMs": 2893421,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        66994,
+        56825,
+        31789
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 121887,
+      "endMs": 3015307,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33432,
+        56335,
+        32120
+      ],
+      "startMs": 2893420
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 133335,
+      "endMs": 3148535,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33604,
+        56627,
+        43104
+      ],
+      "startMs": 3015200
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 175451,
+      "endMs": 3324040,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43854,
+        80510,
+        51087
+      ],
+      "startMs": 3148589
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 189607,
+      "endMs": 3513694,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        47306,
+        82825,
+        59476
+      ],
+      "startMs": 3324087
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 122722,
+      "endMs": 3636417,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33513,
+        56470,
+        32739
+      ],
+      "startMs": 3513695
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 121472,
+      "endMs": 3757884,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33630,
+        55969,
+        31873
+      ],
+      "startMs": 3636412
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 122797,
+      "endMs": 3880567,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33388,
+        57009,
+        32400
+      ],
+      "startMs": 3757770
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 123040,
+      "endMs": 4003685,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33554,
+        57296,
+        32190
+      ],
+      "startMs": 3880645
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 122627,
+      "endMs": 4126379,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33404,
+        57204,
+        32019
+      ],
+      "startMs": 4003752
+    },
+    {
+      "driverId": "driver-55",
+      "durationMs": 122885,
+      "endMs": 4249276,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33342,
+        57577,
+        31966
+      ],
+      "startMs": 4126391
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 145327,
+      "endMs": 2883140,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        47310,
+        60255,
+        37762
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 140091,
+      "endMs": 3023230,
+      "isPitOutLap": true,
+      "isValid": false,
+      "lapNumber": 2,
+      "sectorsMs": [
+        49205,
+        58309,
+        32577
+      ],
+      "startMs": 2883139
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 139548,
+      "endMs": 3162811,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33599,
+        57618,
+        48331
+      ],
+      "startMs": 3023263
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 168801,
+      "endMs": 3331656,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        42818,
+        76225,
+        49758
+      ],
+      "startMs": 3162855
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 185857,
+      "endMs": 3517475,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        49614,
+        79525,
+        56718
+      ],
+      "startMs": 3331618
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 123388,
+      "endMs": 3640879,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        34156,
+        57100,
+        32132
+      ],
+      "startMs": 3517491
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 122380,
+      "endMs": 3763245,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33107,
+        57055,
+        32218
+      ],
+      "startMs": 3640865
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 123143,
+      "endMs": 3886460,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33029,
+        57846,
+        32268
+      ],
+      "startMs": 3763317
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 122601,
+      "endMs": 4008885,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33289,
+        56964,
+        32348
+      ],
+      "startMs": 3886284
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 121935,
+      "endMs": 4130890,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33395,
+        56555,
+        31985
+      ],
+      "startMs": 4008955
+    },
+    {
+      "driverId": "driver-63",
+      "durationMs": 122478,
+      "endMs": 4253416,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33584,
+        56698,
+        32196
+      ],
+      "startMs": 4130938
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 161843,
+      "endMs": 2899656,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        70594,
+        58559,
+        32690
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 125273,
+      "endMs": 3024928,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        33871,
+        58707,
+        32695
+      ],
+      "startMs": 2899655
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 141135,
+      "endMs": 3165976,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        33544,
+        58011,
+        49580
+      ],
+      "startMs": 3024841
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 168758,
+      "endMs": 3334831,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        43265,
+        76218,
+        49275
+      ],
+      "startMs": 3166073
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 183619,
+      "endMs": 3518503,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48829,
+        78652,
+        56138
+      ],
+      "startMs": 3334884
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 123595,
+      "endMs": 3642102,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33813,
+        57593,
+        32189
+      ],
+      "startMs": 3518507
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 124610,
+      "endMs": 3766663,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33422,
+        58400,
+        32788
+      ],
+      "startMs": 3642053
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 124275,
+      "endMs": 3890842,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33618,
+        58422,
+        32235
+      ],
+      "startMs": 3766567
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 124657,
+      "endMs": 4015597,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33891,
+        58326,
+        32440
+      ],
+      "startMs": 3890940
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 123988,
+      "endMs": 4139599,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33661,
+        58101,
+        32226
+      ],
+      "startMs": 4015611
+    },
+    {
+      "driverId": "driver-77",
+      "durationMs": 123984,
+      "endMs": 4263547,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        33707,
+        57804,
+        32473
+      ],
+      "startMs": 4139563
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 148218,
+      "endMs": 2886031,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 1,
+      "sectorsMs": [
+        59012,
+        56551,
+        32655
+      ],
+      "startMs": 2737813
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 120360,
+      "endMs": 3006390,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 2,
+      "sectorsMs": [
+        34014,
+        54189,
+        32157
+      ],
+      "startMs": 2886030
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 124560,
+      "endMs": 3130979,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 3,
+      "sectorsMs": [
+        34059,
+        54969,
+        35532
+      ],
+      "startMs": 3006419
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 185943,
+      "endMs": 3317048,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 4,
+      "sectorsMs": [
+        50335,
+        86811,
+        48797
+      ],
+      "startMs": 3131105
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 193993,
+      "endMs": 3511034,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 5,
+      "sectorsMs": [
+        48302,
+        84905,
+        60786
+      ],
+      "startMs": 3317041
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 121251,
+      "endMs": 3632289,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 6,
+      "sectorsMs": [
+        33896,
+        55253,
+        32102
+      ],
+      "startMs": 3511038
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 121566,
+      "endMs": 3753869,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 7,
+      "sectorsMs": [
+        33749,
+        55467,
+        32350
+      ],
+      "startMs": 3632303
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 122699,
+      "endMs": 3876516,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 8,
+      "sectorsMs": [
+        33885,
+        56199,
+        32615
+      ],
+      "startMs": 3753817
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 122759,
+      "endMs": 3999262,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 9,
+      "sectorsMs": [
+        33984,
+        56164,
+        32611
+      ],
+      "startMs": 3876503
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 121865,
+      "endMs": 4121148,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 10,
+      "sectorsMs": [
+        33980,
+        55631,
+        32254
+      ],
+      "startMs": 3999283
+    },
+    {
+      "driverId": "driver-81",
+      "durationMs": 122125,
+      "endMs": 4243250,
+      "isPitOutLap": false,
+      "isValid": true,
+      "lapNumber": 11,
+      "sectorsMs": [
+        34015,
+        55671,
+        32439
+      ],
+      "startMs": 4121125
+    }
+  ],
+  "overallFastestLap": {
+    "driverId": "driver-1",
+    "durationMs": 118943,
+    "lapNumber": 6
+  },
+  "provenance": [
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:36.742804+00:00",
+      "sourceHash": "27c86111a77aec396baf1cf6dba672d5fb5d0c0d34d075172e2be8ee6dc8fcc4",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=1&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:49.836630+00:00",
+      "sourceHash": "1087c2a32ce00923b6b68240d6ab6b2ed4d101370156b1c0ad5ffc7beab60c1c",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=10&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:52.742318+00:00",
+      "sourceHash": "be127ca70729cc719de2165716d76f574c502756ea50b90a427289183f692b5a",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=11&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:55.739063+00:00",
+      "sourceHash": "eb15ed8f71000478fa3720d2b70b8b6003ae5e5ecae3fb6532bbc3c9ce7e9e4c",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=14&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:58.770558+00:00",
+      "sourceHash": "7c499be680ef37f7dbc780ffe18d4334deabce40b0154fcf22f9926614a41032",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=16&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:01.754737+00:00",
+      "sourceHash": "fd53816be5fa9779c9bf2fdbc6a9be7f5e1da91cc0882cb4ca0f64864cbb315f",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=18&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:40.672210+00:00",
+      "sourceHash": "87b87e5826fca347b2a8d51e32d7c73db544415c013344fca7155872d6b07ce5",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=2&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:05.037359+00:00",
+      "sourceHash": "cf9dc7aa6cdc7ea08a7ba45d9be12942b4dd167d2de0aa008804dc0e50f42c82",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=20&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:08.058164+00:00",
+      "sourceHash": "f92cd04eb4d8974cfb594069a716e4222087a20e226efdc0de78680a4610d277",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=22&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:11.059092+00:00",
+      "sourceHash": "25d9cfecd2195a528f131e314d059fb41511da23215ada34743dcc15cf56b536",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=23&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:14.086442+00:00",
+      "sourceHash": "7e6d5dd69c74e910fca07e8c1d438d0acff6dd6fb79b6eb80414708095d39425",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=24&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:16.936041+00:00",
+      "sourceHash": "d5523992a44ced41670b1242355a084be2b67c5f4e1b1d25613a01421e35448a",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=27&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:43.552885+00:00",
+      "sourceHash": "f4e4ff13e6679425f88cc107c0a4bae8d2594050a1266acc7b649f69395bebf7",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=3&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:21.189224+00:00",
+      "sourceHash": "34199400bf3de3984d299ff090d087f85c6060d04e0b6b43e4eb5c8eec02590d",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=31&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:46.431249+00:00",
+      "sourceHash": "948a95bac4f794460b51d488c1c74f15a316fe3fe2f9645dbe3840769f26d01c",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=4&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:24.327257+00:00",
+      "sourceHash": "93ac8c1bb02b603e16b6e79badc1a51066344605863aa5a64f820696ad4c724b",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=44&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:27.857388+00:00",
+      "sourceHash": "90b474c8cb868f18ad49c884cde9fa99ad10ce3c23891529f0cd11f514ee6e42",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=55&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:31.643941+00:00",
+      "sourceHash": "e79afda99be53753f8dd5f02b6f619194a1110eb457bbc3d5f6c4dee33997220",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=63&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:34.656546+00:00",
+      "sourceHash": "f3da274cc31b5f22576adab8aad4d731dd1143df7630b9468f4a74d074992418",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=77&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:22:37.677103+00:00",
+      "sourceHash": "d7080647b58600b50e5d55b6298d91183f9ceabc6bc832384cc4306b706a1b4c",
+      "sourceUrl": "https://api.openf1.org/v1/car_data?driver_number=81&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:16:07.063564+00:00",
+      "sourceHash": "030cb8aa55aa1e4a3ab668a70d1fb852db59d273df887f123112ea6e74979512",
+      "sourceUrl": "https://api.openf1.org/v1/drivers?session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:16:07.938687+00:00",
+      "sourceHash": "0aacf96ee3d60e871a48000fb0a8c7f86003d53f23158370dae83efaf4776c44",
+      "sourceUrl": "https://api.openf1.org/v1/laps?session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:35.632383+00:00",
+      "sourceHash": "d0f3b95a73d7264390d78d6a0a662b594a6b6a3b9eb207ceb983fc7f1c1d235f",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=1&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:47.056796+00:00",
+      "sourceHash": "ac8cc95740c79c8a5031faa683c2c40d1a2762a522c42bee31c3ec109879572b",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=10&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:49.681875+00:00",
+      "sourceHash": "49a1fda1423fb2026a35deffc224f1e3cdd5eaa1eabe044563b1779c023d1e65",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=11&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:52.428069+00:00",
+      "sourceHash": "196e4704ccd0af4a4a3f295a1b070f1948c757d65bc19bb534edd8eef909dba3",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=14&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:55.146674+00:00",
+      "sourceHash": "58fb5c89a8bee2b0f9560dc58a5db8920f889e491f9dcfe7426d064a99cba5ba",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=16&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:58.457549+00:00",
+      "sourceHash": "55501c845c04cf83bbd96c9bb67b550f136356a24a42cff97628efcdff09e28a",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=18&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:38.143610+00:00",
+      "sourceHash": "82368e7a8c565993b3c6ac31f166ac2b789dd0dcc0655c77a8c749a63217271c",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=2&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:01.219840+00:00",
+      "sourceHash": "599648dae0e80a2b8030f87dc2935b2ddaccea062162288d696183484f465343",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=20&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:05.817791+00:00",
+      "sourceHash": "96527517bc88eb6a2b7c1322a2bdcd859e7221e5d9888ade9f3a00cc53ecd9ab",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=22&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:09.217607+00:00",
+      "sourceHash": "7cd52892c74e1407aa91705fb8b688d99845a2b84831159e41ea511c7cedb31b",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=23&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:11.821342+00:00",
+      "sourceHash": "90e9210ffa8b4386ba9942559ad6450b20e9d1b4ebcfc88bd600bd764fa502ed",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=24&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:14.573961+00:00",
+      "sourceHash": "fb92c7168f4abf7589ed342f02842ae6d202f514e38c8d6250538b14d1a74241",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=27&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:41.038399+00:00",
+      "sourceHash": "be569ff21bfe200ecd60eca7f670cc9ac6f9e96dbe58347cdd7b92e5e87f8749",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=3&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:17.852476+00:00",
+      "sourceHash": "600df554e91ea6252411a1cded52bae11ccd81409865e050aea093ea6f3ec18f",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=31&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:20:43.780158+00:00",
+      "sourceHash": "b895a710cdb3243f53843666651d09c994a23252e364000bb0ec7a391779b5ac",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=4&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:21.532207+00:00",
+      "sourceHash": "3783b5dc6a166930424bbe673ea7b4967cf6209f5ca05cc67ec112cdafe9c967",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=44&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:24.282153+00:00",
+      "sourceHash": "213597e0c2db14927f4b12aca71784b816588bef00b1291de568fc5a9c60ad9d",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=55&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:27.033587+00:00",
+      "sourceHash": "bc1bedee90fe7b2b46ceb4eff4f6c726341d7904bca549a2088f50f764fe4f81",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=63&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:30.732881+00:00",
+      "sourceHash": "ff71af208c8db22a282ecbf3d003fcd0bdaa10a4c9ae2aeaef5f9aa1690ce15c",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=77&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:21:33.741632+00:00",
+      "sourceHash": "6d7c7da4aaa5d5fb1e8152ed281e5dda35e415ee4e04a768e2e93118ba884948",
+      "sourceUrl": "https://api.openf1.org/v1/location?driver_number=81&session_key=9140",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:16:06.140374+00:00",
+      "sourceHash": "751e1cb3db54e9171910969bc914d347eb66fc008a11cf0e4007d0ac016825f7",
+      "sourceUrl": "https://api.openf1.org/v1/meetings?year=2023",
+      "transformationVersion": "ingestion-v1"
+    },
+    {
+      "provider": "OpenF1",
+      "retrievedAtUtc": "2026-07-13T00:16:06.639127+00:00",
+      "sourceHash": "1751f41c0e2e4fbc8a06b988d667d09049a1f6f395eef612783913c38e15ebad",
+      "sourceUrl": "https://api.openf1.org/v1/sessions?meeting_key=1216",
+      "transformationVersion": "ingestion-v1"
+    }
+  ],
+  "schemaVersion": 1,
+  "sessionStartUtc": "2023-07-29T15:05:00Z",
+  "timeline": {
+    "chunkDurationMs": 30000,
+    "endMs": 4466121,
+    "startMs": 2730000
+  },
+  "track": {
+    "centerline": [
+      {
+        "x": 391.678,
+        "y": 195.305
+      },
+      {
+        "x": 318.37,
+        "y": 83.592
+      },
+      {
+        "x": 314.025,
+        "y": 69.178
+      },
+      {
+        "x": 318.811,
+        "y": 60.901
+      },
+      {
+        "x": 328.526,
+        "y": 61.117
+      },
+      {
+        "x": 345.435,
+        "y": 68.182
+      },
+      {
+        "x": 388.023,
+        "y": 90.244
+      },
+      {
+        "x": 418.648,
+        "y": 110.544
+      },
+      {
+        "x": 449.217,
+        "y": 137.48
+      },
+      {
+        "x": 533.164,
+        "y": 227.022
+      },
+      {
+        "x": 568.874,
+        "y": 250.765
+      },
+      {
+        "x": 579.996,
+        "y": 269.423
+      },
+      {
+        "x": 588.52,
+        "y": 304.558
+      },
+      {
+        "x": 595.341,
+        "y": 319.656
+      },
+      {
+        "x": 655.293,
+        "y": 406.01
+      },
+      {
+        "x": 677.698,
+        "y": 453.549
+      },
+      {
+        "x": 768.08,
+        "y": 723.461
+      },
+      {
+        "x": 773.693,
+        "y": 752.54
+      },
+      {
+        "x": 770.336,
+        "y": 762.441
+      },
+      {
+        "x": 751.929,
+        "y": 788.991
+      },
+      {
+        "x": 752.306,
+        "y": 802.331
+      },
+      {
+        "x": 762.268,
+        "y": 838.231
+      },
+      {
+        "x": 755.126,
+        "y": 859.168
+      },
+      {
+        "x": 668.104,
+        "y": 925.971
+      },
+      {
+        "x": 644.547,
+        "y": 939.138
+      },
+      {
+        "x": 630.376,
+        "y": 938.246
+      },
+      {
+        "x": 621.926,
+        "y": 931.221
+      },
+      {
+        "x": 619.318,
+        "y": 924.616
+      },
+      {
+        "x": 620.891,
+        "y": 909.79
+      },
+      {
+        "x": 634.742,
+        "y": 895.051
+      },
+      {
+        "x": 671.721,
+        "y": 871.096
+      },
+      {
+        "x": 678.326,
+        "y": 858.861
+      },
+      {
+        "x": 678.802,
+        "y": 846.287
+      },
+      {
+        "x": 654.37,
+        "y": 777.829
+      },
+      {
+        "x": 626.781,
+        "y": 660.967
+      },
+      {
+        "x": 612.705,
+        "y": 639.679
+      },
+      {
+        "x": 593.063,
+        "y": 628.661
+      },
+      {
+        "x": 563.326,
+        "y": 626.842
+      },
+      {
+        "x": 548.4,
+        "y": 628.955
+      },
+      {
+        "x": 521.894,
+        "y": 644.92
+      },
+      {
+        "x": 498.883,
+        "y": 677.711
+      },
+      {
+        "x": 463.848,
+        "y": 784.105
+      },
+      {
+        "x": 454.255,
+        "y": 803.171
+      },
+      {
+        "x": 442.894,
+        "y": 813.942
+      },
+      {
+        "x": 429.654,
+        "y": 818.018
+      },
+      {
+        "x": 416.106,
+        "y": 816.117
+      },
+      {
+        "x": 389.049,
+        "y": 805.666
+      },
+      {
+        "x": 368.554,
+        "y": 810.85
+      },
+      {
+        "x": 350.719,
+        "y": 829.075
+      },
+      {
+        "x": 321.765,
+        "y": 883.804
+      },
+      {
+        "x": 309.855,
+        "y": 896.853
+      },
+      {
+        "x": 293.258,
+        "y": 901.267
+      },
+      {
+        "x": 268.635,
+        "y": 891.366
+      },
+      {
+        "x": 243.9,
+        "y": 872.569
+      },
+      {
+        "x": 227.524,
+        "y": 845.863
+      },
+      {
+        "x": 226.588,
+        "y": 825.68
+      },
+      {
+        "x": 232.332,
+        "y": 800.893
+      },
+      {
+        "x": 243.146,
+        "y": 777.539
+      },
+      {
+        "x": 259.843,
+        "y": 753.332
+      },
+      {
+        "x": 287.666,
+        "y": 722.659
+      },
+      {
+        "x": 310.751,
+        "y": 702.745
+      },
+      {
+        "x": 394.156,
+        "y": 652.083
+      },
+      {
+        "x": 419.289,
+        "y": 631.783
+      },
+      {
+        "x": 445.744,
+        "y": 593.366
+      },
+      {
+        "x": 469.621,
+        "y": 532.31
+      },
+      {
+        "x": 470.73,
+        "y": 498.488
+      },
+      {
+        "x": 429.229,
+        "y": 390.024
+      },
+      {
+        "x": 414.3,
+        "y": 311.197
+      },
+      {
+        "x": 415.599,
+        "y": 286.354
+      },
+      {
+        "x": 420.446,
+        "y": 281.767
+      },
+      {
+        "x": 435.869,
+        "y": 277.384
+      },
+      {
+        "x": 437.346,
+        "y": 268.102
+      },
+      {
+        "x": 398.608,
+        "y": 205.743
+      }
+    ],
+    "sectorBoundaries": [
+      {
+        "x": 762.323,
+        "y": 706.268
+      },
+      {
+        "x": 250.406,
+        "y": 877.513
+      }
+    ],
+    "startFinish": {
+      "x": 391.678,
+      "y": 195.305
+    },
+    "viewBox": [
+      0,
+      0,
+      1000,
+      1000
+    ]
+  }
+}
