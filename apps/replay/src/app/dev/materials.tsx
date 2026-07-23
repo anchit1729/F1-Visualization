@@ -11,10 +11,12 @@ import IconButton from '../../components/ui/IconButton';
 import LoadingState from '../../components/ui/LoadingState';
 import Screen from '../../components/ui/Screen';
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { getTheme, radius, spacing, typography } from '../../theme/tokens';
 
 export default function MaterialsScreen() {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const darkTheme = getTheme('dark');
   const lightTheme = getTheme('light');
 
@@ -24,7 +26,10 @@ export default function MaterialsScreen() {
 
   return (
     <Screen style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={!useGlass}
+      >
         <Text
           accessibilityRole="header"
           style={[styles.title, { color: theme.colors.text }]}

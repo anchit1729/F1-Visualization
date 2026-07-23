@@ -12,6 +12,7 @@ import {
 import Svg, { Circle, G, Polyline, Text as SvgText } from 'react-native-svg';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { radius, spacing, typography } from '../../theme/tokens';
 import FocusRing from '../ui/FocusRing';
 
@@ -73,6 +74,7 @@ function DriverListButton({
   selected,
 }: DriverListButtonProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const [focused, setFocused] = useState(false);
   return (
     <Pressable
@@ -89,6 +91,7 @@ function DriverListButton({
         {
           backgroundColor: theme.colors.surface,
           borderColor: selected ? theme.colors.focusRing : theme.colors.border,
+          borderRadius: useGlass ? theme.liquidGlass.control.radius : radius.sm,
           opacity: available ? 1 : 0.5,
         },
       ]}
@@ -155,6 +158,7 @@ export default function TrackRenderer({
   track,
 }: TrackRendererProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const [x, y, width, height] = track.viewBox;
   const [viewport, setViewport] = useState({
     height: (320 * height) / width,
@@ -211,6 +215,7 @@ export default function TrackRenderer({
             aspectRatio,
             backgroundColor: theme.colors.surface,
             borderColor: theme.colors.border,
+            borderRadius: useGlass ? theme.liquidGlass.panel.radius : radius.md,
           },
         ]}
         testID={testID ? `${testID}-map` : undefined}
@@ -344,7 +349,6 @@ const styles = StyleSheet.create({
   },
   driverButton: {
     alignItems: 'center',
-    borderRadius: radius.sm,
     borderWidth: StyleSheet.hairlineWidth,
     flexDirection: 'row',
     gap: spacing.xs,
@@ -363,7 +367,6 @@ const styles = StyleSheet.create({
     padding: spacing.xs,
   },
   frame: {
-    borderRadius: radius.md,
     borderWidth: StyleSheet.hairlineWidth,
     overflow: 'hidden',
     position: 'relative',

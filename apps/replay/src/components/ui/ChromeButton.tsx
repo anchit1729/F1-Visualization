@@ -47,7 +47,7 @@ export default function ChromeButton({
       ]}
       testID={testID}
     >
-      <ChromeSurface style={styles.surface} variant="control">
+      <ChromeSurface interactive style={styles.surface} variant="control">
         <Text
           style={[
             styles.label,

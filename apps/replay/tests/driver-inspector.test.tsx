@@ -94,7 +94,7 @@ describe('driver inspector', () => {
     await render(<InspectorFixture />);
 
     expect(screen.getByRole('header', { name: '1 · ONE' })).toBeTruthy();
-    expect(screen.getByText('220 km/h')).toBeTruthy();
+    expect(screen.getByLabelText('220 km/h')).toBeTruthy();
     expect(screen.getByText('84%')).toBeTruthy();
     expect(screen.getByText('Applied')).toBeTruthy();
     expect(screen.getByText('11,000')).toBeTruthy();
@@ -102,6 +102,13 @@ describe('driver inspector', () => {
     expect(screen.getByText('1.12 g')).toBeTruthy();
     expect(screen.getByText('0:10.000 · Overall fastest')).toBeTruthy();
     expect(screen.getByText('0:10.000 · ONE')).toBeTruthy();
+    expect(screen.getByTestId('telemetry-speed')).toHaveStyle({
+      color: '#0071a4',
+    });
+    expect(screen.getByTestId('telemetry-throttle-fill')).toHaveStyle({
+      backgroundColor: '#248a3d',
+      width: '84%',
+    });
 
     await fireEvent.press(
       screen.getByRole('button', { name: 'Close driver details' }),
@@ -109,18 +116,20 @@ describe('driver inspector', () => {
     expect(props.onClose).toHaveBeenCalledTimes(1);
   });
 
-  test('uses a modal bottom sheet on narrow layouts', async () => {
+  test('uses a compact non-modal overlay on narrow layouts', async () => {
     await render(<InspectorFixture presentationValue="bottom" />);
 
     expect(screen.getByTestId('driver-inspector')).toHaveStyle({
-      maxHeight: '82%',
-      width: '100%',
+      left: 8,
+      maxWidth: 360,
+      position: 'absolute',
+      right: 8,
     });
   });
 
   test('updates live values and labels genuinely unavailable data', async () => {
     const result = await render(<InspectorFixture />);
-    expect(screen.getByText('220 km/h')).toBeTruthy();
+    expect(screen.getByLabelText('220 km/h')).toBeTruthy();
 
     await result.rerender(
       <InspectorFixture
@@ -144,7 +153,7 @@ describe('driver inspector', () => {
       />,
     );
 
-    expect(screen.getByText('221 km/h')).toBeTruthy();
+    expect(screen.getByLabelText('221 km/h')).toBeTruthy();
     expect(screen.queryByText('3.00 g')).toBeNull();
     expect(screen.queryByText('4.00 g')).toBeNull();
     expect(screen.getAllByText('Unavailable').length).toBeGreaterThan(5);

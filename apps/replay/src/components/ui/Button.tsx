@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet, Text, type PressableProps } from 'react-native';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { motion, radius, spacing, typography } from '../../theme/tokens';
 import FocusRing from './FocusRing';
 import { shouldScaleControl, useControlFeedback } from './useControlFeedback';
@@ -20,6 +21,7 @@ export default function Button({
   testID,
 }: ButtonProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const { handleBlur, handleFocus, isFocused, isReduceMotionEnabled } =
     useControlFeedback();
 
@@ -33,7 +35,10 @@ export default function Button({
       onPress={onPress}
       style={(state) => [
         styles.button,
-        { backgroundColor: theme.colors.accent },
+        {
+          backgroundColor: theme.colors.accent,
+          borderRadius: useGlass ? theme.liquidGlass.control.radius : radius.sm,
+        },
         shouldScaleControl(state.pressed, isReduceMotionEnabled) &&
           styles.pressed,
         disabled && styles.disabled,
@@ -53,7 +58,6 @@ const styles = StyleSheet.create({
   button: {
     alignItems: 'center',
     alignSelf: 'flex-start',
-    borderRadius: radius.sm,
     justifyContent: 'center',
     minHeight: 44,
     paddingHorizontal: spacing.lg,

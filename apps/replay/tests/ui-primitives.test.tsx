@@ -2,6 +2,7 @@ import { act, fireEvent, render, screen } from '@testing-library/react-native';
 import { AccessibilityInfo, Text, View } from 'react-native';
 
 import Button from '../src/components/ui/Button';
+import Card from '../src/components/ui/Card';
 import ChromeButton from '../src/components/ui/ChromeButton';
 import ChromeSurface from '../src/components/ui/ChromeSurface';
 import ErrorState from '../src/components/ui/ErrorState';
@@ -11,6 +12,10 @@ import Screen from '../src/components/ui/Screen';
 import ThemedText from '../src/components/ui/ThemedText';
 import { shouldScaleControl } from '../src/components/ui/useControlFeedback';
 import { AppThemeProvider } from '../src/theme/useAppTheme';
+import {
+  LiquidGlassProvider,
+  shouldUseLiquidGlass,
+} from '../src/theme/useLiquidGlass';
 import { focus, getTheme, motion } from '../src/theme/tokens';
 
 afterEach(() => {
@@ -41,6 +46,41 @@ function contrastRatio(foreground: string, background: string) {
 }
 
 describe('motorsport surface policy', () => {
+  test('limits native Liquid Glass to supported iOS accessibility settings', () => {
+    expect(shouldUseLiquidGlass('ios', true, true, false)).toBe(true);
+    expect(shouldUseLiquidGlass('android', true, true, false)).toBe(false);
+    expect(shouldUseLiquidGlass('web', true, true, false)).toBe(false);
+    expect(shouldUseLiquidGlass('ios', false, true, false)).toBe(false);
+    expect(shouldUseLiquidGlass('ios', true, false, false)).toBe(false);
+    expect(shouldUseLiquidGlass('ios', true, true, true)).toBe(false);
+  });
+
+  test('uses a solid black canvas and consistent iOS corner families', async () => {
+    const theme = getTheme('dark');
+
+    await render(
+      <LiquidGlassProvider enabled>
+        <AppThemeProvider appearance="dark">
+          <Screen testID="glass-screen">
+            <Card testID="glass-card">
+              <Button label="Primary action" testID="glass-button" />
+            </Card>
+          </Screen>
+        </AppThemeProvider>
+      </LiquidGlassProvider>,
+    );
+
+    expect(screen.getByTestId('glass-screen')).toHaveStyle({
+      backgroundColor: '#000000',
+    });
+    expect(screen.getByTestId('glass-card')).toHaveStyle({
+      borderRadius: theme.liquidGlass.panel.radius,
+    });
+    expect(screen.getByTestId('glass-button')).toHaveStyle({
+      borderRadius: theme.liquidGlass.control.radius,
+    });
+  });
+
   test('uses light while the system scheme is initially indeterminate', () => {
     expect(getTheme(null).mode).toBe('light');
     expect(getTheme(undefined).mode).toBe('light');

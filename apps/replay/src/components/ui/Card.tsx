@@ -2,12 +2,14 @@ import type { PropsWithChildren } from 'react';
 import { StyleSheet, View, type ViewProps } from 'react-native';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { radius, spacing } from '../../theme/tokens';
 
 type CardProps = PropsWithChildren<Pick<ViewProps, 'style' | 'testID'>>;
 
 export default function Card({ children, style, testID }: CardProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
 
   return (
     <View
@@ -16,6 +18,7 @@ export default function Card({ children, style, testID }: CardProps) {
         {
           backgroundColor: theme.colors.surface,
           borderColor: theme.colors.border,
+          borderRadius: useGlass ? theme.liquidGlass.panel.radius : radius.md,
         },
         style,
       ]}
@@ -28,7 +31,6 @@ export default function Card({ children, style, testID }: CardProps) {
 
 const styles = StyleSheet.create({
   card: {
-    borderRadius: radius.md,
     borderWidth: StyleSheet.hairlineWidth,
     padding: spacing.lg,
   },

@@ -31,6 +31,7 @@ import {
 } from '../../features/replay/frameSelectors';
 import { loadReplayStart } from '../../features/replay/loadReplayStart';
 import useReplayPlayback from '../../features/playback/useReplayPlayback';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { spacing, typography } from '../../theme/tokens';
 
 type ReplayViewData = Awaited<ReturnType<typeof loadReplayStart>>;
@@ -46,6 +47,7 @@ export function generateStaticParams() {
 
 export default function ReplayScreen() {
   const router = useRouter();
+  const useGlass = useLiquidGlass();
   const { width: viewportWidth } = useWindowDimensions();
   const { replayId } = useLocalSearchParams<{ replayId?: string | string[] }>();
   const id = Array.isArray(replayId) ? replayId[0] : replayId;
@@ -174,7 +176,10 @@ export default function ReplayScreen() {
         </View>
       ) : null}
       {data ? (
-        <ScrollView contentContainerStyle={styles.content}>
+        <ScrollView
+          contentContainerStyle={styles.content}
+          showsVerticalScrollIndicator={!useGlass}
+        >
           <View style={styles.heading}>
             <ThemedText accessibilityRole="header" style={styles.title}>
               {data.replay.summary.title}
@@ -183,12 +188,7 @@ export default function ReplayScreen() {
               {data.replay.summary.subtitle}
             </ThemedText>
           </View>
-          <View
-            style={[
-              styles.replayBody,
-              inspectorPresentation === 'side' && styles.replayBodyWide,
-            ]}
-          >
+          <View style={styles.replayBody}>
             <View style={styles.visualization}>
               <View style={styles.track}>
                 <TrackRenderer
@@ -199,6 +199,17 @@ export default function ReplayScreen() {
                   testID="replay-track"
                   track={data.replay.index.track}
                 />
+                {frame && selectedDriver ? (
+                  <DriverInspector
+                    driver={selectedDriver}
+                    drivers={data.replay.index.drivers}
+                    onClose={closeInspector}
+                    overallFastestLap={frame.overallFastestLap}
+                    presentation={inspectorPresentation}
+                    telemetry={frame.telemetryByDriver[selectedDriver.id]}
+                    timing={frame.timingByDriver[selectedDriver.id]}
+                  />
+                ) : null}
               </View>
               {replayPlayback.playback ? (
                 <PlaybackToolbar
@@ -212,17 +223,6 @@ export default function ReplayScreen() {
                 />
               ) : null}
             </View>
-            {frame && selectedDriver ? (
-              <DriverInspector
-                driver={selectedDriver}
-                drivers={data.replay.index.drivers}
-                onClose={closeInspector}
-                overallFastestLap={frame.overallFastestLap}
-                presentation={inspectorPresentation}
-                telemetry={frame.telemetryByDriver[selectedDriver.id]}
-                timing={frame.timingByDriver[selectedDriver.id]}
-              />
-            ) : null}
           </View>
           <ChromeSurface style={styles.status} variant="panel">
             <ThemedText style={styles.statusTitle}>Replay frame</ThemedText>
@@ -279,10 +279,6 @@ const styles = StyleSheet.create({
     gap: spacing.lg,
     width: '100%',
   },
-  replayBodyWide: {
-    alignItems: 'flex-start',
-    flexDirection: 'row',
-  },
   status: {
     alignSelf: 'stretch',
     gap: spacing.xs,
@@ -298,6 +294,7 @@ const styles = StyleSheet.create({
   },
   track: {
     maxWidth: 760,
+    position: 'relative',
     width: '100%',
   },
   visualization: {

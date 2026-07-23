@@ -6,10 +6,21 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import AppHeader from '../components/ui/AppHeader';
 import { AppThemeProvider, useAppTheme } from '../theme/useAppTheme';
+import { LiquidGlassProvider, useLiquidGlass } from '../theme/useLiquidGlass';
 
 export default function RootLayout() {
   return (
-    <AppThemeProvider>
+    <LiquidGlassProvider>
+      <ThemedApp />
+    </LiquidGlassProvider>
+  );
+}
+
+function ThemedApp() {
+  const useGlass = useLiquidGlass();
+
+  return (
+    <AppThemeProvider appearance={useGlass ? 'dark' : undefined}>
       <AppFrame />
     </AppThemeProvider>
   );
@@ -17,6 +28,10 @@ export default function RootLayout() {
 
 function AppFrame() {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
+  const backgroundColor = useGlass
+    ? theme.liquidGlass.backgroundColor
+    : theme.colors.background;
   const navigationTheme = useMemo(() => {
     const baseTheme = theme.mode === 'dark' ? DarkTheme : DefaultTheme;
 
@@ -24,7 +39,7 @@ function AppFrame() {
       ...baseTheme,
       colors: {
         ...baseTheme.colors,
-        background: theme.colors.background,
+        background: backgroundColor,
         border: theme.colors.border,
         card: theme.colors.surface,
         notification: theme.colors.danger,
@@ -32,18 +47,16 @@ function AppFrame() {
         text: theme.colors.text,
       },
     };
-  }, [theme]);
+  }, [backgroundColor, theme]);
 
   return (
     <SafeAreaProvider>
       <ThemeProvider value={navigationTheme}>
-        <View
-          style={[styles.app, { backgroundColor: theme.colors.background }]}
-        >
+        <View style={[styles.app, { backgroundColor }]}>
           <AppHeader />
           <Stack
             screenOptions={{
-              contentStyle: { backgroundColor: theme.colors.background },
+              contentStyle: { backgroundColor },
               headerShown: false,
             }}
           />

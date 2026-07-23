@@ -3,6 +3,7 @@ import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { spacing, typography } from '../../theme/tokens';
 import ChromeSurface from './ChromeSurface';
 import IconButton from './IconButton';
@@ -12,16 +13,23 @@ export default function AppHeader() {
   const pathname = usePathname();
   const router = useRouter();
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const isLibrary = pathname === '/';
 
   return (
     <SafeAreaView
       edges={['top']}
-      style={{ backgroundColor: theme.colors.background }}
+      style={{
+        backgroundColor: useGlass ? 'transparent' : theme.colors.background,
+      }}
     >
       <View>
         <ChromeSurface
-          style={[styles.surface, { borderTopColor: theme.colors.accent }]}
+          style={[
+            styles.surface,
+            !useGlass && { borderTopColor: theme.colors.accent },
+            useGlass && styles.glassSurface,
+          ]}
           testID="app-header-surface"
           variant="chrome"
         >
@@ -62,6 +70,12 @@ const styles = StyleSheet.create({
     borderTopWidth: 2,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
+  },
+  glassSurface: {
+    borderRadius: 20,
+    borderTopWidth: StyleSheet.hairlineWidth,
+    marginBottom: spacing.sm,
+    marginHorizontal: spacing.sm,
   },
   title: {
     fontSize: typography.body,

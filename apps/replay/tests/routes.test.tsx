@@ -196,7 +196,7 @@ describe('application routes', () => {
     await fireEvent.press(await screen.findByTestId('driver-list-driver-1'));
     expect(mockTriggerFeedback).toHaveBeenCalledWith('selection');
     expect(screen.getByTestId('driver-inspector')).toBeTruthy();
-    expect(screen.getByText('100 km/h')).toBeTruthy();
+    expect(screen.getByLabelText('100 km/h')).toBeTruthy();
     expect(screen.getByText('Not applied')).toBeTruthy();
 
     await fireEvent.press(

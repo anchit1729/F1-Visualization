@@ -2,6 +2,7 @@ import type { PropsWithChildren } from 'react';
 import { StyleSheet, View, type ViewProps } from 'react-native';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { spacing } from '../../theme/tokens';
 
 type ScreenProps = PropsWithChildren<
@@ -15,13 +16,18 @@ export default function Screen({
   testID,
 }: ScreenProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
 
   return (
     <View
       accessibilityLabel={accessibilityLabel}
       style={[
         styles.screen,
-        { backgroundColor: theme.colors.background },
+        {
+          backgroundColor: useGlass
+            ? theme.liquidGlass.backgroundColor
+            : theme.colors.background,
+        },
         style,
       ]}
       testID={testID}

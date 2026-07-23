@@ -13,25 +13,28 @@ type ThemedTextProps = Pick<
   | 'numberOfLines'
   | 'style'
   | 'testID'
-> & { tone?: TextTone };
+> & { color?: string; tone?: TextTone };
 
 export default function ThemedText({
   accessibilityLabel,
   accessibilityLiveRegion,
   accessibilityRole,
   children,
+  color: colorOverride,
   numberOfLines,
   style,
   testID,
   tone = 'primary',
 }: ThemedTextProps) {
   const theme = useAppTheme();
-  const color = {
-    danger: theme.colors.danger,
-    'on-accent': theme.colors.onAccent,
-    primary: theme.colors.text,
-    secondary: theme.colors.textSecondary,
-  }[tone];
+  const color =
+    colorOverride ??
+    {
+      danger: theme.colors.danger,
+      'on-accent': theme.colors.onAccent,
+      primary: theme.colors.text,
+      secondary: theme.colors.textSecondary,
+    }[tone];
 
   return (
     <Text

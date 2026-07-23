@@ -25,10 +25,12 @@ import {
   type ReplayScopeFilter,
   type ReplayYearFilter,
 } from '../features/catalog/libraryModel';
+import { useLiquidGlass } from '../theme/useLiquidGlass';
 import { spacing, typography } from '../theme/tokens';
 
 export default function LibraryScreen() {
   const router = useRouter();
+  const useGlass = useLiquidGlass();
   const [replays, setReplays] = useState<ReplaySummary[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [requestKey, setRequestKey] = useState(0);
@@ -92,7 +94,10 @@ export default function LibraryScreen() {
 
   return (
     <Screen style={styles.screen}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={!useGlass}
+      >
         <View style={styles.intro}>
           <ThemedText accessibilityRole="header" style={styles.title}>
             Replay library

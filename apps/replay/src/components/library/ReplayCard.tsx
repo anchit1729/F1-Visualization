@@ -7,6 +7,7 @@ import {
   getReplayButtonLabel,
 } from '../../features/catalog/libraryModel';
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { radius, spacing, typography } from '../../theme/tokens';
 import TrackRenderer from '../replay/TrackRenderer';
 import Card from '../ui/Card';
@@ -20,13 +21,25 @@ type ReplayCardProps = {
 
 export default function ReplayCard({ onOpen, replay }: ReplayCardProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
   const scopeLabel = replay.replayScope === 'race' ? 'Race' : 'Lap';
 
   return (
     <Card style={styles.card} testID={`replay-card-${replay.id}`}>
       <TrackRenderer track={replay.trackPreview} />
       <View style={styles.heading}>
-        <View style={[styles.badge, { backgroundColor: theme.colors.accent }]}>
+        <View
+          style={[
+            styles.badge,
+            {
+              backgroundColor: theme.colors.accent,
+              borderRadius: useGlass
+                ? theme.liquidGlass.control.radius
+                : radius.sm,
+            },
+          ]}
+          testID={`replay-scope-${replay.id}`}
+        >
           <ThemedText style={styles.badgeLabel} tone="on-accent">
             {scopeLabel}
           </ThemedText>
@@ -54,7 +67,6 @@ export default function ReplayCard({ onOpen, replay }: ReplayCardProps) {
 const styles = StyleSheet.create({
   badge: {
     alignSelf: 'flex-start',
-    borderRadius: radius.sm,
     paddingHorizontal: spacing.sm,
     paddingVertical: spacing.xs,
   },

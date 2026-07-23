@@ -1,6 +1,7 @@
 import type { PropsWithChildren } from 'react';
-import { Pressable, StyleSheet, type PressableProps } from 'react-native';
+import { Pressable, StyleSheet, View, type PressableProps } from 'react-native';
 
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { motion } from '../../theme/tokens';
 import ChromeSurface from './ChromeSurface';
 import FocusRing from './FocusRing';
@@ -20,6 +21,7 @@ export default function ChromeIconButton({
   style,
   testID,
 }: ChromeIconButtonProps) {
+  const useGlass = useLiquidGlass();
   const { handleBlur, handleFocus, isFocused, isReduceMotionEnabled } =
     useControlFeedback();
 
@@ -40,8 +42,12 @@ export default function ChromeIconButton({
       ]}
       testID={testID}
     >
-      <ChromeSurface style={styles.surface} variant="control">
-        {children}
+      <ChromeSurface interactive style={styles.surface} variant="control">
+        {useGlass ? (
+          <View style={disabled && styles.disabledContent}>{children}</View>
+        ) : (
+          children
+        )}
       </ChromeSurface>
       <FocusRing visible={isFocused} />
     </Pressable>
@@ -49,6 +55,9 @@ export default function ChromeIconButton({
 }
 
 const styles = StyleSheet.create({
+  disabledContent: {
+    opacity: 0.45,
+  },
   pressed: {
     transform: [{ scale: motion.pressedScale }],
   },

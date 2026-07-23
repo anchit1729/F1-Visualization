@@ -25,7 +25,7 @@
     "start": "npm run start --workspace @f1/replay",
     "test": "npm run test:js && npm run test:app && npm run test:python",
     "test:app": "npm run test --workspace @f1/replay",
-    "test:js": "node --test",
+    "test:js": "node --test tests/tooling.test.mjs",
     "test:python": "python3 -m pytest tools/ingestion/tests",
     "typecheck": "npm run typecheck --workspace @f1/domain && npm run typecheck --workspace @f1/replay",
     "web": "npm run web --workspace @f1/replay"

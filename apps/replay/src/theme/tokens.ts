@@ -92,14 +92,40 @@ function createSurfaceTokens(isDark: boolean) {
   } as const;
 }
 
+function createLiquidGlassTokens(isDark: boolean) {
+  return {
+    backgroundColor: '#000000',
+    chrome: {
+      borderColor: isDark ? '#ffffff2e' : '#ffffffa3',
+      effect: 'regular',
+      radius: 20,
+      tintColor: isDark ? '#10141a70' : '#ffffff4d',
+    },
+    control: {
+      borderColor: isDark ? '#ffffff38' : '#ffffffb8',
+      effect: 'clear',
+      radius: radius.pill,
+      tintColor: isDark ? '#1b202870' : '#ffffff57',
+    },
+    panel: {
+      borderColor: isDark ? '#ffffff29' : '#ffffff8f',
+      effect: 'regular',
+      radius: 24,
+      tintColor: isDark ? '#11151c7a' : '#ffffff52',
+    },
+  } as const;
+}
+
 const lightTheme = {
   colors: lightColors,
+  liquidGlass: createLiquidGlassTokens(false),
   mode: 'light',
   surfaces: createSurfaceTokens(false),
 } as const;
 
 const darkTheme = {
   colors: darkColors,
+  liquidGlass: createLiquidGlassTokens(true),
   mode: 'dark',
   surfaces: createSurfaceTokens(true),
 } as const;

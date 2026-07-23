@@ -5,11 +5,15 @@ import type {
   ReplayYearFilter,
 } from '../../features/catalog/libraryModel';
 import { useAppTheme } from '../../theme/useAppTheme';
-import { radius, spacing, typography } from '../../theme/tokens';
-import FocusRing from '../ui/FocusRing';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
+import { motion, radius, spacing, typography } from '../../theme/tokens';
 import ChromeSurface from '../ui/ChromeSurface';
+import FocusRing from '../ui/FocusRing';
 import ThemedText from '../ui/ThemedText';
-import { useControlFeedback } from '../ui/useControlFeedback';
+import {
+  shouldScaleControl,
+  useControlFeedback,
+} from '../ui/useControlFeedback';
 
 type FilterChipProps = {
   label: string;
@@ -19,7 +23,9 @@ type FilterChipProps = {
 
 function FilterChip({ label, onPress, selected }: FilterChipProps) {
   const theme = useAppTheme();
-  const { handleBlur, handleFocus, isFocused } = useControlFeedback();
+  const useGlass = useLiquidGlass();
+  const { handleBlur, handleFocus, isFocused, isReduceMotionEnabled } =
+    useControlFeedback();
 
   return (
     <Pressable
@@ -30,21 +36,41 @@ function FilterChip({ label, onPress, selected }: FilterChipProps) {
       onPress={onPress}
       style={({ pressed }) => [
         styles.chip,
-        {
+        !useGlass && {
           backgroundColor: selected
             ? theme.colors.accent
             : theme.colors.surface,
           borderColor: selected ? theme.colors.accent : theme.colors.border,
         },
-        pressed && styles.pressed,
+        useGlass &&
+          selected && {
+            backgroundColor: theme.colors.accent,
+            borderColor: theme.colors.accent,
+          },
+        useGlass && selected && styles.selectedGlassChip,
+        useGlass && !selected && styles.glassChip,
+        pressed && !useGlass && styles.pressed,
+        useGlass &&
+          shouldScaleControl(pressed, isReduceMotionEnabled) &&
+          styles.glassPressed,
       ]}
     >
-      <ThemedText
-        style={styles.chipLabel}
-        tone={selected ? 'on-accent' : 'primary'}
-      >
-        {label}
-      </ThemedText>
+      {useGlass && !selected ? (
+        <ChromeSurface
+          interactive
+          style={styles.glassSurface}
+          variant="control"
+        >
+          <ThemedText style={styles.chipLabel}>{label}</ThemedText>
+        </ChromeSurface>
+      ) : (
+        <ThemedText
+          style={styles.chipLabel}
+          tone={selected ? 'on-accent' : 'primary'}
+        >
+          {label}
+        </ThemedText>
+      )}
       <FocusRing visible={isFocused} />
     </Pressable>
   );
@@ -132,6 +158,20 @@ const styles = StyleSheet.create({
   group: {
     gap: spacing.xs,
   },
+  glassChip: {
+    borderRadius: radius.pill,
+    borderColor: 'transparent',
+    paddingHorizontal: 0,
+  },
+  glassPressed: {
+    transform: [{ scale: motion.pressedScale }],
+  },
+  glassSurface: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 44,
+    paddingHorizontal: spacing.md,
+  },
   groupLabel: {
     fontSize: 13,
     fontWeight: typography.weight.medium,
@@ -145,6 +185,9 @@ const styles = StyleSheet.create({
   },
   pressed: {
     opacity: 0.72,
+  },
+  selectedGlassChip: {
+    borderRadius: radius.pill,
   },
   surface: {
     gap: spacing.md,

@@ -2,6 +2,7 @@ import type { ReplayIndex } from '@f1/domain';
 import { Modal, ScrollView, StyleSheet, View } from 'react-native';
 
 import { useAppTheme } from '../../theme/useAppTheme';
+import { useLiquidGlass } from '../../theme/useLiquidGlass';
 import { radius, spacing, typography } from '../../theme/tokens';
 import ChromeButton from '../ui/ChromeButton';
 import ChromeSurface from '../ui/ChromeSurface';
@@ -19,6 +20,7 @@ export default function ReplayInfoSheet({
   visible,
 }: ReplayInfoSheetProps) {
   const theme = useAppTheme();
+  const useGlass = useLiquidGlass();
 
   return (
     <Modal
@@ -35,14 +37,22 @@ export default function ReplayInfoSheet({
           accessibilityLabel="Replay data information"
           style={styles.sheet}
         >
-          <ScrollView contentContainerStyle={styles.content}>
+          <ScrollView
+            contentContainerStyle={styles.content}
+            showsVerticalScrollIndicator={!useGlass}
+          >
             <ThemedText accessibilityRole="header" style={styles.title}>
               Replay data
             </ThemedText>
             <View
               style={[
                 styles.details,
-                { backgroundColor: theme.colors.surface },
+                {
+                  backgroundColor: theme.colors.surface,
+                  borderRadius: useGlass
+                    ? theme.liquidGlass.panel.radius
+                    : radius.md,
+                },
               ]}
             >
               <ThemedText>
@@ -81,7 +91,6 @@ const styles = StyleSheet.create({
     gap: spacing.md,
   },
   details: {
-    borderRadius: radius.md,
     gap: spacing.sm,
     padding: spacing.md,
   },
